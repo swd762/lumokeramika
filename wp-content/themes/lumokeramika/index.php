@@ -1,3 +1,13 @@
 <?php
-get_header();
+    get_header();
 ?>
+
+
+</body>
+
+
+
+<?php
+    get_footer();
+?>
+

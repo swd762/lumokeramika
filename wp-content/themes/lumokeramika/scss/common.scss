@@ -1,0 +1,108 @@
+/* Fonts */
+@font-face {
+  font-family: 'Century Gothic Regular';
+  src: url('fonts/CenturyGothic.eot');
+  src: url('fonts/CenturyGothic.eot?#iefix') format('embedded-opentype'),
+  url('fonts/CenturyGothic.woff') format('woff'),
+  url('fonts/CenturyGothic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Century Gothic Bold';
+  src: url('fonts/CenturyGothic-Bold.eot');
+  src: url('fonts/CenturyGothic-Bold.eot?#iefix') format('embedded-opentype'),
+  url('fonts/CenturyGothic-Bold.woff') format('woff'),
+  url('fonts/CenturyGothic-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+/* Colors */
+
+$background-dark: #2d2d2d;
+$button-orange:#ff9d00;
+$button-orange-hover:#cc7e00;
+$white:#fff;
+$background-light-gray:#e9e3e3;
+
+/* Basic settings */
+
+
+html {
+  font-size: 10px;
+}
+
+
+
+
+
+/* Header */
+
+header {
+  .header {
+    background-color: $background-dark;
+      .wrap {
+        display: table;
+        width: 100%;
+        height: 9rem;
+          .logo {
+            display: table-cell;
+            vertical-align: middle;
+              img {
+                width: 25rem;
+                height: 6rem;
+              }
+          }
+        .wrap-phone {
+           display: table-cell;
+           vertical-align: middle;
+           text-align: right;
+            p {
+               display: inline-block;
+               margin: 0;
+               font-size: 2.4rem;
+               font-family: 'Century Gothic Regular', sans-serif;
+               font-weight: 500;
+               text-align: right;
+               color: $white;
+            }
+        }
+        .wrap-button {
+          text-align: right;
+          display: table-cell;
+          vertical-align: middle;
+            button:hover {
+             background-color: $button-orange-hover;
+             cursor: pointer;
+            }
+            button {
+              width: 18rem;
+              height: 4.5rem;
+              padding: 0;
+              font-family: 'Century Gothic Bold', sans-serif;
+              font-variant: small-caps;
+              font-weight: bold;
+              font-size: 1.6rem;
+              line-height: 4.5rem;
+              color: #ffffff;
+              background-color: $button-orange;
+              border: none;
+              border-radius: 5px;
+                img {
+                  width: 2rem;
+                  height: 2rem;
+                }
+                p {
+                  display: inline-block;
+                  margin: 0 0 0 1rem;
+                }
+            }
+        }
+      }
+  }
+  nav {
+
+  }
+}
