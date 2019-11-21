@@ -1,0 +1,108 @@
+@media (max-width: 569px) {
+  .main {
+    max-height: 46rem;
+  }
+  .main-form {
+    padding-top: 4.7rem;
+  }
+  .main-form-wrapper {
+    width: 100%;
+  }
+  .main-form-wrapper-header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    line-height: 2.4rem;
+    color: #ff9d00;
+  }
+  .main-form-wrapper-header p {
+    margin-bottom: 3.5rem;
+    font-size: 1.8rem;
+  }
+  .main-form-wrapper form {
+    padding: 0;
+    background: none;
+    text-align: center;
+  }
+  .main-form-wrapper form p {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+  .main-form-wrapper form p span {
+    display: inline-block;
+    margin-top: 1.5rem;
+  }
+  .main-form-wrapper form input {
+    display: block;
+    width: 29rem;
+    height: 4.7rem;
+    margin: 0 auto 1.3rem auto;
+    padding-left: 0;
+    text-align: center;
+  }
+  .main-form-wrapper form button {
+    display: block;
+    width: 18rem;
+    margin: 0 auto;
+  }
+  .main-form-wrapper form small {
+    display: block;
+    margin-top: 1.5rem;
+  }
+  .popup-thanks-content {
+    top: 8%;
+    width: 28rem;
+    height: 22rem;
+  }
+  .popup-thanks-content h4 {
+    height: 6rem;
+    line-height: 6rem;
+    font-size: 1.6rem;
+  }
+  .popup-thanks-content p {
+    font-size: 2rem;
+  }
+  .popup-thanks-close {
+    top: 0.5rem;
+    right: 1.2rem;
+    color: #373737;
+    font-weight: 900;
+    font-size: 4rem;
+  }
+  .popup-feedback-content {
+    top: 9%;
+    width: 30rem;
+    height: 38rem;
+    padding-top: 4rem;
+  }
+  .popup-feedback-content h4 {
+    height: 6rem;
+    line-height: 6rem;
+    font-size: 1.8rem;
+  }
+  .popup-feedback-content form p {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .popup-feedback-content form p.light {
+    font-size: 1.6rem;
+  }
+  .popup-feedback-content form span {
+    font-size: 1.6rem;
+  }
+  .popup-feedback-content form input {
+    width: 28rem;
+  }
+  .popup-feedback-content form button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .popup-feedback-content form small {
+    font-size: 1.2rem;
+  }
+  .popup-feedback-close {
+    top: -1.3rem;
+    right: 1.8rem;
+    font-size: 4rem;
+  }
+}

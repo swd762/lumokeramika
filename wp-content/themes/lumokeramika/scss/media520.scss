@@ -1,0 +1,39 @@
+@media (max-width: 520px) {
+  .clients {
+    padding: 3rem 0.5rem 3rem 0.5rem;
+  }
+  .clients .production-header span {
+    margin-bottom: 0;
+  }
+  .clients .col-xs-6 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .clients-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 14.5rem;
+    height: 9rem;
+    margin: 0 auto 1rem auto;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .clients-wrapper-img {
+    max-width: 9rem;
+    max-height: 6rem;
+    background-size: contain;
+  }
+  .making-slider-for {
+    margin-bottom: 4rem;
+  }
+  .making-slider-for-block img {
+    height: 38rem;
+    width: 170%;
+    margin-top: 0;
+  }
+}

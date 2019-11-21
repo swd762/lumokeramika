@@ -63,7 +63,8 @@
                              <img src="<?php echo get_template_directory_uri()?>/images/favicon.png" alt="logo">
                          </div>
                          <div class="navbar-header-call-phones">
-                             <a href="tel:+79272848574">ООО "Люмокерамика"</a>
+                             <a href="tel:+79272848574" class="small-visible-2">ООО "Люмокерамика"</a>
+                             <a href="tel:+79272848574" class="small-visible-1">"Люмокерамика"</a>
                              <a href="tel:+79272848574">+7 (927) <span>284-85-74</span></a>
                          </div>
                          <div class="navbar-header-call-handset">

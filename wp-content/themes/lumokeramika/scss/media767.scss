@@ -1,0 +1,269 @@
+@media (max-width: 767px) {
+
+  header .navbar-header { display: block}   // just
+
+  header .navbar-default {
+    border: none;
+  }
+  header .navbar-default .navbar-nav {
+    flex-direction: column;
+  }
+
+  header .navbar-default .collapse {
+    width: 30rem;
+    /*Убираем скролл в выпадающем меню*/
+  }
+  header .navbar-default .collapse ul {
+    width: 25rem;
+    /*Убираем скролл в выпадающем меню*/
+  }
+  header .navbar-default .navbar-header {
+    height: 5.6rem;
+  }
+  header .navbar-default .navbar-header-call {
+    display: block;
+  }
+  header .header {
+    display: none;
+  }
+  .main {
+    background-size: cover;
+  }
+  .main-form-wrapper {
+    position: inherit;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-form-wrapper-header {
+    text-align: center;
+  }
+  .main-form-wrapper form {
+    text-align: center;
+  }
+
+  .about .text-box h2 {
+    margin-top: 20px!important;
+  }
+
+
+
+
+
+
+
+  .triggers {
+    padding-top: 2rem;
+  }
+  .triggers-text h2 {
+    margin-bottom: 0;
+  }
+  .triggers-text p {
+    margin-bottom: 2rem;
+  }
+  .triggers-box {
+    max-width: 29rem;
+    margin: 0 auto 0.8rem auto;
+    padding: 1.8rem 1rem 1.8rem 0.8rem ;
+    max-height: 11.5rem;
+  }
+  .triggers-box img {
+    margin-top: 1.3rem;
+  }
+  .triggers-box h5 {
+    margin: 0 0 0.5rem 0;
+  }
+  .production {
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  .production-header h2 {
+    font-size: 2.2rem;
+  }
+  .production-content {
+    position: inherit;
+    height: 30rem;
+  }
+  .production-content h4 {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+  }
+  .production-content img {
+    width: auto;
+    min-height: 21rem;
+    height: 21rem;
+  }
+  .production-content-button {
+    position: inherit;
+    top: 0;
+  }
+  .production-content-button-more {
+    width: 11.5rem;
+    margin-right: 1rem;
+  }
+  .production-content-button-calc {
+    width: 16rem;
+  }
+  .offer {
+    height: 37rem;
+  }
+  .offer-form {
+    margin-top: 5rem;
+  }
+  .offer-form h2 {
+    font-size: 2rem;
+  }
+  .offer-form h2 span {
+    font-size: 1.6rem;
+  }
+  .offer-form p {
+    font-size: 1.4rem;
+  }
+  .offer-form input {
+    width: 29rem;
+  }
+  .offer-form button {
+    width: 18rem;
+  }
+  .offer-form small {
+    margin-top: 1.5rem;
+  }
+  .making {
+    height: 61rem;
+    margin-top: 2.5rem;
+  }
+  .making .h2-mobile {
+    display: block;
+    text-align: center;
+  }
+  .making .h2-mobile h2 {
+    background-color: #ff9d00;
+    color: #ffffff;
+    font-family: 'Roboto_reg', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 2rem;
+    line-height: 6.5rem;
+    height: 6.5rem;
+  }
+  .making-slider-for-block img {
+    height: 50rem;
+    width: 115%;
+    margin-top: -15rem;
+    margin-left: -8rem;
+  }
+  .making-content p {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+  .clients-wrapper {
+    width: 21rem;
+    margin: 0 auto 3rem auto;
+  }
+  .clients-wrapper-img {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+  }
+  .making-arrow-prev {
+    z-index: 1;
+    left: 0;
+    background: url(../img/left-arrow-white.png) center no-repeat;
+  }
+  .making-arrow-next {
+    right: 0;
+    background: url(../img/right-arrow-white.png) center no-repeat;
+  }
+  .feedback {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+  .feedback-slider-nav-block {
+    margin: 0;
+  }
+  .feedback-slider-nav-block img {
+    margin: 0 auto;
+  }
+  .contacts {
+    position: inherit;
+  }
+  .contacts-content {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contacts-map {
+    margin: 1.5rem;
+  }
+  .popup-feedback-content {
+    top: 20%;
+    width: 46rem;
+    height: 40rem;
+  }
+  .popup-feedback-content form p {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 2.6rem;
+    line-height: 2.6rem;
+  }
+  .popup-feedback-content form span {
+    font-size: 2.2rem;
+  }
+  .popup-feedback-content form input {
+    margin: 0;
+  }
+  .popup-feedback-content form button {
+    margin-bottom: 2rem;
+  }
+  .popup-more-content {
+    margin-top: 4rem;
+  }
+  .popup-more-content h4 {
+    height: 5rem;
+    font-size: 1.1rem;
+    line-height: 5rem;
+  }
+  .popup-more-content-text {
+    padding: 0;
+  }
+  .popup-more-content-text p {
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+  }
+  .popup-more-content-triggers-box {
+    max-width: 32rem;
+  }
+  .popup-more-content form p {
+    font-size: 2rem;
+  }
+  .popup-more-content form span {
+    font-size: 1.5rem;
+  }
+  .popup-more-content form p.light {
+    font-size: 1.7rem;
+  }
+  .popup-more-content form input {
+    margin: 0.5rem auto;
+    width: 28rem;
+  }
+  .popup-more-content form button {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .popup-more-content form small {
+    font-size: 1.2rem;
+  }
+  .popup-more-close {
+    top: -4rem;
+    right: 0;
+  }
+  .panel-body {
+    border: none;
+  }
+  .panel-heading {
+    padding: 0;
+  }
+}

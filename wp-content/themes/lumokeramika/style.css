@@ -14,6 +14,10 @@
   font-style: normal; }
 /* Colors */
 /* Basic settings */
+html,
+body {
+  overflow-x: hidden; }
+
 html {
   font-size: 10px; }
 
@@ -122,9 +126,6 @@ header .navbar-default {
   min-height: 4.4rem;
   margin: 0; }
 
-header .navbar-default .collapse {
-  padding: 0; }
-
 header .navbar-default .navbar-header {
   height: 4.4rem; }
 
@@ -227,13 +228,17 @@ header .navbar-default .navbar-nav li:first-child {
 header .navbar-default .navbar-nav li a {
   padding: 0.6rem 2.45rem;
   text-transform: uppercase;
-  font-size: 1.2rem;
-  font-family: 'Roboto_reg', sans-serif;
-  font-weight: normal;
-  color: #000000; }
+  font-size: 1.4rem;
+  font-family: 'Century Gothic', sans-serif;
+  font-weight: bold;
+  color: #000000;
+  text-shadow: 1px 1px 1px #666; }
 
 header .navbar-default .navbar-nav li a:hover {
   color: #ff9d00; }
+
+.small-visible-1 {
+  display: none !important; }
 
 .main {
   position: relative;
@@ -329,16 +334,48 @@ header .navbar-default .navbar-nav li a:hover {
   font-size: 1.4rem;
   border-radius: 5px;
   color: #373737;
-  font-family: 'Roboto_light', sans-serif;
+  font-family: 'Century Gothic Regular', sans-serif;
   font-weight: 300; }
 
 .main-form-wrapper form button {
   width: 16rem;
   font-size: 1.5rem;
-  font-family: 'Roboto_med', sans-serif;
+  font-family: 'Century Gothic Regular', sans-serif;
   font-weight: 500; }
 
-/*Media*/
+.about {
+  background-color: #dbdbdb;
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
+  font-family: 'Century Gothic Bold', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #666;
+  overflow-x: hidden; }
+
+.about .pic-box img {
+  width: 100%;
+  box-shadow: 7px 7px 7px #333; }
+
+.about .text-box h2 {
+  margin-top: 0px;
+  text-transform: uppercase;
+  font-family: 'Century Gothic Bold', sans-serif;
+  font-weight: 700;
+  color: #666;
+  text-align: center; }
+
+.about .text-box span {
+  font-size: 1.6rem;
+  color: #ec7c26; }
+
+/*Media other*/
+@media (max-width: 350px) {
+  .small-visible-1 {
+    display: block !important; }
+
+  .small-visible-2 {
+    display: none !important; } }
 @media (max-width: 1199px) {
   header .navbar-default .navbar-nav li a {
     padding: 0.6rem 1.34rem; }
@@ -391,7 +428,7 @@ header .navbar-default .navbar-nav li a:hover {
 
   header .navbar-default .navbar-nav li a {
     padding: 0.6rem 0.8rem;
-    font-size: 1rem; }
+    font-size: 1.1rem; }
 
   header .header .wrap-phones p {
     font-size: 1.8rem; }
@@ -477,6 +514,9 @@ header .navbar-default .navbar-nav li a:hover {
   header .navbar-default {
     border: none; }
 
+  header .navbar-default .navbar-nav {
+    flex-direction: column; }
+
   header .navbar-default .collapse {
     width: 30rem;
     /*╨г╨▒╨╕╤А╨░╨╡╨╝ ╤Б╨║╤А╨╛╨╗╨╗ ╨▓ ╨▓╤Л╨┐╨░╨┤╨░╤О╤Й╨╡╨╝ ╨╝╨╡╨╜╤О*/ }
@@ -507,6 +547,9 @@ header .navbar-default .navbar-nav li a:hover {
 
   .main-form-wrapper form {
     text-align: center; }
+
+  .about .text-box h2 {
+    margin-top: 20px !important; }
 
   .triggers {
     padding-top: 2rem; }
