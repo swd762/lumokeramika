@@ -263,12 +263,13 @@ header .navbar-default .navbar-nav li a {
   //font-family: 'Roboto_reg', sans-serif;
   //font-weight: normal;
   //color: #000000;   /// just
+
   text-transform: uppercase;
   font-size: 1.4rem;
   font-family: 'Century Gothic', sans-serif;
   font-weight: bold;
   color:#000000;
-  text-shadow: 1px 1px 1px #666;
+  //text-shadow: 1px 1px 1px #666;
 }
 header .navbar-default .navbar-nav li a:hover {
   color: #ff9d00;
@@ -412,7 +413,124 @@ header .navbar-default .navbar-nav li a:hover {
   color:$text-gray;
   text-align: center;
 }
-.about .text-box span {
+.about .text-box p span {
   font-size: 1.6rem;
   color: #ec7c26;
+}
+.about .text-box ul li span {
+  font-size: 1.6rem;
+  color: #ec7c26;
+}
+
+// ** Gallery block **
+.gallery {
+  position: relative;
+  height: 60rem;
+  background: url("images/gallery/gallery-bg.jpg") 20% 70% no-repeat;
+}
+.gallery .gallery-overlay {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.gallery .gallery-view-box {
+  margin-top:4rem;
+  background-color: #0A246A;
+  height:30rem;
+}
+.gallery .gallery-thumbnails-box {
+  height: 20rem;
+  background-color: #00d084;
+}
+
+
+.gallery .gallery-description {
+  margin: 0 0 0 3rem;
+  height: 7rem;
+  background-color: #4c4949;
+}
+.gallery .gallery-description .gallery-description-header h2 {
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  padding-top: 2rem;
+}
+.gallery-description-text-block{
+  padding: 7rem 1rem 0 2rem;
+}
+.gallery-description .gallery-description-text-block p {
+  font-size: 1.4rem;
+  font-family: "Century Gothic Regular", sans-serif;
+  font-weight: normal;
+  color: #fff;
+}
+
+
+
+.space {
+  height: 3rem;
+}
+
+
+
+
+
+.making-slider-for {
+  background-color: #4c4949;
+  margin-bottom: 1.5rem;
+  padding: 2rem;
+}
+.making-slider-for-block {
+  width: 100%;
+  max-height: 38rem;
+}
+.making-slider-for-block img {
+  width: 100%;
+  min-height: 38rem;
+}
+.slider-nav-wrapper {
+  background-color:#4c4949 ;
+}
+
+.making-slider-nav {
+
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.making-slider-nav-block {
+  max-width: 12rem;
+  max-height: 7.8rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  background-color: black;
+  -webkit-filter: brightness(40%);
+  filter: brightness(40%);
+}
+.making-slider-nav-block img {
+  width: 100%;
+  min-height: 7.8rem;
+}
+.making-slider-nav .slick-current {
+  -webkit-filter: brightness(100%);
+  filter: brightness(100%);
+}
+
+
+// **Products block**
+.products {
+  background-color: $background-gray1;
+  height: 50rem;
+}
+.products-header {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.products .products-header h2 {
+  font-size: 3rem;
+  font-family: "Century Gothic Bold", sans-serif;
+  font-weight: 700;
 }
