@@ -1,0 +1,87 @@
+@media (max-width: 991px) {
+  header .navbar-default .navbar-nav li {
+    border: none; }
+
+  header .navbar-default .navbar-nav li a {
+    padding: 0.6rem 0.8rem;
+    font-size: 1rem; }
+
+  header .header .wrap-phones p {
+    font-size: 1.8rem; }
+
+  .main-boxes-1 {
+    width: 75%;
+    margin-top: 63%;
+    margin-left: 2%; }
+
+  .main-boxes-2 {
+    width: 80%;
+    margin-top: 83%; }
+
+  .main-boxes-3 {
+    right: 74%;
+    width: 3rem;
+    height: 2.5rem;
+    margin-top: 117%; }
+
+  .main-form-wrapper {
+    z-index: 3; }
+
+  .production-content {
+    position: relative;
+    height: 38rem; }
+
+  .production-content img {
+    width: 85%;
+    min-height: 23rem; }
+
+  .production-content-button {
+    position: absolute;
+    top: 32rem; }
+
+  .triggers-text h2 {
+    margin-left: -0.1rem;
+    margin-right: -0.1rem;
+    font-size: 3rem; }
+
+  .making-content p {
+    font-size: 1.4rem;
+    line-height: 1.8rem; }
+
+  .making-arrow-prev {
+    left: -2.2rem; }
+
+  .making-arrow-next {
+    right: -2.2rem; }
+
+  .feedback-slider-nav-block {
+    margin-left: 4.5rem; }
+
+  .prev {
+    left: -1rem; }
+
+  .next {
+    right: -1rem; }
+
+  .contacts-content {
+    left: 6rem; }
+
+  .popup-feedback-content {
+    width: 68rem;
+    top: 20%; }
+
+  .popup-more-content-text {
+    padding-top: 2rem;
+    padding-bottom: 2rem; }
+
+  .popup-more-content-text p {
+    font-size: 1.4rem;
+    line-height: 1.8rem; }
+
+  .popup-more-content-triggers {
+    padding-bottom: 1rem; }
+
+  .popup-more-content-triggers-box {
+    margin-bottom: 1rem; } }
+
+/*# sourceMappingURL=media991.css.map */

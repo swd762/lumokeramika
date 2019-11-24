@@ -1,0 +1,48 @@
+@media (max-width: 1199px) {
+  header .navbar-default .navbar-nav li a {
+    padding: 0.6rem 1.34rem; }
+
+  header .navbar-header {
+    display: none; }
+
+  header .header .wrap .phones p {
+    font-size: 1.8rem;
+    text-align: center; }
+
+  .main-boxes-1 {
+    margin-top: 30%;
+    margin-left: 14%; }
+
+  .main-boxes-2 {
+    margin-top: 49%;
+    margin-left: 1%; }
+
+  .main-boxes-3 {
+    margin-top: 96%;
+    right: 56%; }
+
+  .clients-wrapper {
+    height: 13rem; }
+
+  .making-arrow-prev {
+    left: -2.5rem; }
+
+  .making-arrow-next {
+    right: -2.5rem; }
+
+  .feedback-slider-nav-block {
+    margin-left: 2rem; }
+
+  .prev {
+    left: -3rem; }
+
+  .next {
+    right: -3rem; }
+
+  .contacts-content {
+    left: 11rem; }
+
+  .popup-more-content {
+    margin-top: 5rem; } }
+
+/*# sourceMappingURL=media1199.css.map */

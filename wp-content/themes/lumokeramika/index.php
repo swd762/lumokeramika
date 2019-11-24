@@ -78,56 +78,56 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-xs-12">
-                        <div class="making-slider-for">
-                            <div class="making-slider-for-block">
+                        <div class="gallery-view-box">
+                            <div class="gallery-view-box-block">
                                 <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/01.jpg" alt="Slider-img">
                             </div>
-                            <div class="making-slider-for-block">
+                            <div class="gallery-view-box-block">
                                 <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/02.jpg" alt="Slider-img">
                             </div>
-                            <div class="making-slider-for-block">
+                            <div class="gallery-view-box-block">
                                 <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/03.jpg" alt="Slider-img">
                             </div>
-                            <div class="making-slider-for-block">
+                            <div class="gallery-view-box-block">
                                 <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/04.jpg" alt="Slider-img">
                             </div>
-                            <div class="making-slider-for-block">
+                            <div class="gallery-view-box-block">
                                 <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/05.jpg" alt="Slider-img">
                             </div>
-                            <div class="making-slider-for-block">
+                            <div class="gallery-view-box-block">
                                 <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/06.jpg" alt="Slider-img">
                             </div>
-                            <div class="making-slider-for-block">
+                            <div class="gallery-view-box-block">
                                 <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/07.jpg" alt="Slider-img">
                             </div>
-                            <div class="making-slider-for-block">
+                            <div class="gallery-view-box-block">
                                 <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/08.jpg" alt="Slider-img">
                             </div>
                         </div>
                         <div class="slider-nav-wrapper">
-                            <div class="making-slider-nav hidden-xs wow fadeInUp" data-wow-delay="0.1s" data-wow-offset="150">
-                                <div class="making-slider-nav-block">
+                            <div class="gallery-thumbnails-box hidden-xs wow fadeInUp" data-wow-delay="0.1s" data-wow-offset="150">
+                                <div class="gallery-thumbnails-box-block">
                                     <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/01.jpg" alt="Slider-img">
                                 </div>
-                                <div class="making-slider-nav-block">
+                                <div class="gallery-thumbnails-box-block">
                                     <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/02.jpg" alt="Slider-img">
                                 </div>
-                                <div class="making-slider-nav-block">
+                                <div class="gallery-thumbnails-box-block">
                                     <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/03.jpg" alt="Slider-img">
                                 </div>
-                                <div class="making-slider-nav-block">
+                                <div class="gallery-thumbnails-box-block">
                                     <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/04.jpg" alt="Slider-img">
                                 </div>
-                                <div class="making-slider-nav-block">
+                                <div class="gallery-thumbnails-box-block">
                                     <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/05.jpg" alt="Slider-img">
                                 </div>
-                                <div class="making-slider-nav-block">
+                                <div class="gallery-thumbnails-box-block">
                                     <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/06.jpg" alt="Slider-img">
                                 </div>
-                                <div class="making-slider-nav-block">
+                                <div class="gallery-thumbnails-box-block">
                                     <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/07.jpg" alt="Slider-img">
                                 </div>
-                                <div class="making-slider-nav-block">
+                                <div class="gallery-thumbnails-box-block">
                                     <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/08.jpg" alt="Slider-img">
                                 </div>
                             </div>
@@ -287,16 +287,56 @@
             </div>
         </div>
     </section>
+<!--Contacts block-->
+    <section id="contacts" class="contacts">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4 col-xs-12">
+                    <div class="contacts-content wow bounceInLeft" data-wow-offset="250">
+                        <div class="contacts-content-address">
+                            <img src="<?php echo get_template_directory_uri()?>/images/contacts/location-icon.png" alt="">
+                            <h2>Адрес офиса:</h2>
+                            <p>414022, г. Астрахань,</p>
+                            <p>ул. Н. Островского, 148, офис 422</p>
+                        </div>
+                        <div class="contacts-content-phone">
+                            <img src="<?php echo get_template_directory_uri()?>/images/contacts/phone-icon.png" alt="">
+                            <h2>Тел. отдела продаж:</h2>
+                            <p>8 (347) 271-54-28</p>
+                            <p>8 (937) 363-30-00</p>
+                            <button class="button btn-order" onclick="yaCounter47126406.reachGoal('callback-btn'); return true;">Заказать звонок</button>
+                        </div>
+                        <div class="contacts-content-email">
+                            <img src="<?php echo get_template_directory_uri()?>/images/contacts/email-icon.png" alt="">
+                            <h2>E-mail:</h2>
+                            <a href="mailto:urals.karton@gmail.com"><p>urals.karton@gmail.com</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="contacts-map">
+                        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae54cc96e509c1f93b885acc4438cbc6d13b7035939e8ca5105a4c8c716cd008d&amp;width=100%25&amp;height=550&amp;lang=ru_RU&amp;scroll=true"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>2019 (c) All rights reserved. lumokeramika.ru</p>
+        </div>
+
+    </footer>
 <script>
        jQuery(function($) {
         /*Slick Script*/
-        $('.making-slider-for').slick({
+        $('.gallery-view-box').slick({
             infinite: true,
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: true,
             fade: true,
-            asNavFor: '.making-slider-nav',
+            asNavFor: '.gallery-thumbnails-box',
             responsive: [
                 {
                     breakpoint: 768,
@@ -308,13 +348,13 @@
             ]
         });
 
-        $('.making-slider-nav').slick({
+        $('.gallery-thumbnails-box').slick({
             infinite: true,
             slidesToShow: 4,
             slidesToScroll: 1,
             prevArrow: '<button class="making-arrow-prev"></button>',
             nextArrow: '<button class="making-arrow-next"></button>',
-            asNavFor: '.making-slider-for',
+            asNavFor: '.gallery-view-box',
             dots: false,
             arrows: true,
             centerMode: true,

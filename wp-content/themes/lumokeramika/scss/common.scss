@@ -436,13 +436,71 @@ header .navbar-default .navbar-nav li a:hover {
   background-color: rgba(0, 0, 0, 0.7);
 }
 .gallery .gallery-view-box {
-  margin-top:4rem;
-  background-color: #0A246A;
-  height:30rem;
+  background-color: #4c4949;
+  margin-bottom: 1.5rem;
+  padding: 2rem;
+}
+.gallery .gallery-view-box-block {
+  width: 100%;
+  max-height: 38rem;
+}
+.gallery .gallery-view-box-block img {
+  width: 100%;
+  min-height: 38rem;
+}
+.slider-nav-wrapper {
+  background-color:#4c4949 ;
 }
 .gallery .gallery-thumbnails-box {
-  height: 20rem;
-  background-color: #00d084;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gallery .gallery-thumbnails-box-block {
+  max-width: 12rem;
+  max-height: 7.8rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  background-color: black;
+  -webkit-filter: brightness(40%);
+  filter: brightness(40%);
+}
+.gallery .gallery-thumbnails-box-block img {
+  width: 100%;
+  min-height: 7.8rem;
+}
+.slick-current{
+  -webkit-filter: brightness(100%)!important;
+  filter: brightness(100%)!important;
+}
+.making-arrow-prev {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 2.2rem;
+  height: 7.8rem;
+  left: -3.5rem;
+  background: url(images/arrow-left-white.png) center no-repeat;
+  border:none;
+}
+.making-arrow-prev:hover {
+  background: url(images/arrow-left-orange.png) center no-repeat;
+}
+.making-arrow-next {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 2.2rem;
+  height: 7.8rem;
+  right: -3.5rem;
+  background: url(images/arrow-right-white.png) center no-repeat;
+  border:none;
+}
+.making-arrow-next:hover {
+  background: url(images/arrow-right-orange.png) center no-repeat;
+
 }
 
 
@@ -466,57 +524,11 @@ header .navbar-default .navbar-nav li a:hover {
   font-weight: normal;
   color: #fff;
 }
-
-
-
 .space {
   height: 3rem;
 }
 
 
-
-
-
-.making-slider-for {
-  background-color: #4c4949;
-  margin-bottom: 1.5rem;
-  padding: 2rem;
-}
-.making-slider-for-block {
-  width: 100%;
-  max-height: 38rem;
-}
-.making-slider-for-block img {
-  width: 100%;
-  min-height: 38rem;
-}
-.slider-nav-wrapper {
-  background-color:#4c4949 ;
-}
-
-.making-slider-nav {
-
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.making-slider-nav-block {
-  max-width: 12rem;
-  max-height: 7.8rem;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-  background-color: black;
-  -webkit-filter: brightness(40%);
-  filter: brightness(40%);
-}
-.making-slider-nav-block img {
-  width: 100%;
-  min-height: 7.8rem;
-}
-.making-slider-nav .slick-current {
-  -webkit-filter: brightness(100%);
-  filter: brightness(100%);
-}
 
 
 // **Products block**
@@ -627,4 +639,97 @@ header .navbar-default .navbar-nav li a:hover {
   min-height: 38rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 5px;
+}
+
+//** Contacts block **
+.contacts {
+  position: relative;
+  //height: 53rem;
+}
+
+.contacts .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.contacts-content {
+  position: absolute;
+  left: 25rem;
+  top: 7.5rem;
+  width: 31.5rem;
+  height: 39rem;
+  padding: 3.5rem;
+  border-radius: 5px;
+  background-color: #ffffff;
+  z-index: 5;
+}
+.contacts-content-address h2 {
+  font-size: 1.8rem;
+  font-family: 'Roboto_med', sans-serif;
+  font-weight: 500;
+  position: relative;
+  bottom: 4.5rem;
+  left: 3rem;
+}
+.contacts-content-address p {
+  position: relative;
+  bottom: 5rem;
+  left: 3rem;
+  font-size: 1.6rem;
+  line-height: 1.5rem;
+  font-family: 'Roboto_light', sans-serif;
+  font-weight: 300;
+}
+.contacts-content-phone {
+  position: relative;
+  bottom: 4rem;
+}
+.contacts-content-phone h2 {
+  font-size: 1.8rem;
+  font-family: 'Roboto_med', sans-serif;
+  font-weight: 500;
+  position: relative;
+  bottom: 4.5rem;
+  left: 3rem;
+}
+.contacts-content-phone p {
+  font-size: 1.6rem;
+  font-family: 'Roboto_light', sans-serif;
+  font-weight: 300;
+  position: relative;
+  bottom: 5rem;
+  left: 3rem;
+}
+.contacts-content-phone button {
+  position: relative;
+  bottom: 5rem;
+  left: 3rem;
+}
+.contacts-content-email {
+  position: relative;
+  bottom: 7rem;
+}
+.contacts-content-email h2 {
+  font-size: 1.8rem;
+  font-family: 'Roboto_med', sans-serif;
+  font-weight: 500;
+  position: relative;
+  bottom: 4rem;
+  left: 3rem;
+}
+.contacts-content-email p {
+  font-size: 1.6rem;
+  font-family: 'Roboto_light', sans-serif;
+  font-weight: 300;
+  position: relative;
+  bottom: 4.5rem;
+  left: 3rem;
+}
+.contacts-content-email a {
+  color: #373737;
+}
+
+//**Footer block**
+footer {
+  height: 10rem;
+  background-color: black;
 }
