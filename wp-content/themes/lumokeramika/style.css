@@ -25,6 +25,7 @@ body {
   margin: 0;
   padding: 0; }
 
+/** Common styles **/
 button:focus,
 input:focus,
 a:focus,
@@ -456,7 +457,8 @@ header .navbar-default .navbar-nav li a:hover {
 
 .products {
   background-color: #dbdbdb;
-  height: 50rem; }
+  height: 90rem;
+  padding-top: 2rem; }
 
 .products-header {
   text-transform: uppercase;
@@ -466,6 +468,93 @@ header .navbar-default .navbar-nav li a:hover {
   font-size: 3rem;
   font-family: "Century Gothic Bold", sans-serif;
   font-weight: 700; }
+
+.products-content {
+  text-align: center;
+  padding-top: 3rem; }
+
+.products-content img {
+  background-color: #000;
+  box-shadow: 7px 7px 7px #333; }
+
+.products-content h4 {
+  font-family: "Century Gothic Regular", sans-serif;
+  font-weight: 500;
+  font-size: 2rem; }
+
+.production-content-buttons {
+  width: 100%;
+  height: 5rem; }
+
+.product-button-more {
+  display: inline-block;
+  width: 13rem;
+  height: 5rem;
+  margin-right: 1.5rem;
+  padding: 0;
+  line-height: 5rem;
+  background-color: #ffffff;
+  color: rgba(55, 55, 55, 0.502);
+  border-radius: 5px;
+  border: 1px solid rgba(55, 55, 55, 0.502); }
+
+.product-button-more:hover {
+  background-color: rgba(55, 55, 55, 0.502);
+  color: #ffffff; }
+
+.product-button-calc {
+  display: inline-block;
+  width: 17rem;
+  height: 5rem;
+  line-height: 5rem; }
+
+.product-button-gallery {
+  display: inline-block;
+  margin: 1rem auto;
+  width: 27rem;
+  height: 5rem;
+  padding: 0;
+  line-height: 5rem;
+  background-color: #ffffff;
+  color: rgba(55, 55, 55, 0.502);
+  border-radius: 5px;
+  border: 1px solid rgba(55, 55, 55, 0.502); }
+
+.product-button-gallery:hover {
+  background-color: rgba(55, 55, 55, 0.502);
+  color: #ffffff; }
+
+.advantage {
+  height: 40rem;
+  background-color: #2d2d2d; }
+
+.advantage-box {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 10rem; }
+
+.advantage-box h3 {
+  color: #fff; }
+
+.advantage-big {
+  margin-top: 3rem; }
+
+.feedback {
+  padding-top: 5.5rem;
+  padding-bottom: 6.5rem;
+  background-color: #f4f4f4; }
+
+.feedback-slider-nav {
+  padding-top: 3rem; }
+
+.feedback-slider-nav-block {
+  margin-left: 6.5rem; }
+
+.feedback-slider-nav-block img {
+  min-height: 38rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px; }
 
 /*Media other*/
 @media (max-width: 350px) {

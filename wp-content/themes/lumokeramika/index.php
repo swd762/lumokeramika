@@ -80,55 +80,55 @@
                     <div class="col-md-6 col-xs-12">
                         <div class="making-slider-for">
                             <div class="making-slider-for-block">
-                                <img src="<?php echo get_template_directory_uri()?>/images/slider/01.jpg" alt="Slider-img">
+                                <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/01.jpg" alt="Slider-img">
                             </div>
                             <div class="making-slider-for-block">
-                                <img src="<?php echo get_template_directory_uri()?>/images/slider/02.jpg" alt="Slider-img">
+                                <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/02.jpg" alt="Slider-img">
                             </div>
                             <div class="making-slider-for-block">
-                                <img src="<?php echo get_template_directory_uri()?>/images/slider/03.jpg" alt="Slider-img">
+                                <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/03.jpg" alt="Slider-img">
                             </div>
                             <div class="making-slider-for-block">
-                                <img src="<?php echo get_template_directory_uri()?>/images/slider/04.jpg" alt="Slider-img">
+                                <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/04.jpg" alt="Slider-img">
                             </div>
                             <div class="making-slider-for-block">
-                                <img src="<?php echo get_template_directory_uri()?>/images/slider/05.jpg" alt="Slider-img">
+                                <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/05.jpg" alt="Slider-img">
                             </div>
                             <div class="making-slider-for-block">
-                                <img src="<?php echo get_template_directory_uri()?>/images/slider/06.jpg" alt="Slider-img">
+                                <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/06.jpg" alt="Slider-img">
                             </div>
                             <div class="making-slider-for-block">
-                                <img src="<?php echo get_template_directory_uri()?>/images/slider/07.jpg" alt="Slider-img">
+                                <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/07.jpg" alt="Slider-img">
                             </div>
                             <div class="making-slider-for-block">
-                                <img src="<?php echo get_template_directory_uri()?>/images/slider/08.jpg" alt="Slider-img">
+                                <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/08.jpg" alt="Slider-img">
                             </div>
                         </div>
                         <div class="slider-nav-wrapper">
                             <div class="making-slider-nav hidden-xs wow fadeInUp" data-wow-delay="0.1s" data-wow-offset="150">
                                 <div class="making-slider-nav-block">
-                                    <img src="<?php echo get_template_directory_uri()?>/images/slider/01.jpg" alt="Slider-img">
+                                    <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/01.jpg" alt="Slider-img">
                                 </div>
                                 <div class="making-slider-nav-block">
-                                    <img src="<?php echo get_template_directory_uri()?>/images/slider/02.jpg" alt="Slider-img">
+                                    <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/02.jpg" alt="Slider-img">
                                 </div>
                                 <div class="making-slider-nav-block">
-                                    <img src="<?php echo get_template_directory_uri()?>/images/slider/03.jpg" alt="Slider-img">
+                                    <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/03.jpg" alt="Slider-img">
                                 </div>
                                 <div class="making-slider-nav-block">
-                                    <img src="<?php echo get_template_directory_uri()?>/images/slider/04.jpg" alt="Slider-img">
+                                    <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/04.jpg" alt="Slider-img">
                                 </div>
                                 <div class="making-slider-nav-block">
-                                    <img src="<?php echo get_template_directory_uri()?>/images/slider/05.jpg" alt="Slider-img">
+                                    <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/05.jpg" alt="Slider-img">
                                 </div>
                                 <div class="making-slider-nav-block">
-                                    <img src="<?php echo get_template_directory_uri()?>/images/slider/06.jpg" alt="Slider-img">
+                                    <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/06.jpg" alt="Slider-img">
                                 </div>
                                 <div class="making-slider-nav-block">
-                                    <img src="<?php echo get_template_directory_uri()?>/images/slider/07.jpg" alt="Slider-img">
+                                    <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/07.jpg" alt="Slider-img">
                                 </div>
                                 <div class="making-slider-nav-block">
-                                    <img src="<?php echo get_template_directory_uri()?>/images/slider/08.jpg" alt="Slider-img">
+                                    <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/08.jpg" alt="Slider-img">
                                 </div>
                             </div>
                         </div>
@@ -166,6 +166,7 @@
             </div>
         </div>
     </section>
+<!--Products block-->
     <section id="products" class="products">
         <div class="container">
             <div class="products-header">
@@ -174,10 +175,45 @@
             <div class="row">
                  <div class="col-sm-6 col-xs-12">
                      <div class="products-content">
-                         <img src="" alt="">
+                         <img src="<?php echo get_template_directory_uri()?>/images/products/product.png" alt="">
                          <h4>Пластина настенная</h4>
+                         <div class="product-content-buttons">
+                             <button class="product-button-more btn-more">Подробнее</button>
+                             <button class="product-button-calc btn-order">Получить расчёт</button>
+                         </div>
                      </div>
                  </div>
+                <div class="col-sm-6 col-xs-12">
+                    <div class="products-content">
+                        <img src="<?php echo get_template_directory_uri()?>/images/products/product.png" alt="">
+                        <h4>Пластина настенная</h4>
+                        <div class="product-content-buttons">
+                            <button class="product-button-more btn-more">Подробнее</button>
+                            <button class="button product-button-calc btn-order">Получить расчёт</button>
+                            <button class="product-button-gallery btn-gallery">Выбрать принт</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <div class="products-content">
+                        <img src="<?php echo get_template_directory_uri()?>/images/products/product.png" alt="">
+                        <h4>Пластина настенная</h4>
+                        <div class="product-content-buttons">
+                            <button class="product-button-more btn-more">Подробнее</button>
+                            <button class="product-button-calc btn-order">Получить расчёт</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <div class="products-content">
+                        <img src="<?php echo get_template_directory_uri()?>/images/products/product.png" alt="">
+                        <h4>Пластина настенная</h4>
+                        <div class="product-content-buttons">
+                            <button class="product-button-more btn-more">Подробнее</button>
+                            <button class="product-button-calc btn-order">Получить расчёт</button>
+                        </div>
+                    </div>
+                </div>
 
 
 
@@ -185,6 +221,69 @@
 
 
 
+
+            </div>
+        </div>
+    </section>
+<!--Advantages block-->
+    <section id="advantage" class="advantage">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="advantage-box">
+                        <img src="<?php echo get_template_directory_uri()?>/images/advantage/offer.png" alt="">
+                        <h3>НАШ ПРОДУКТ УНИКАЛЕН</h3>
+                        <h3>ВО ВСЕХ ОТНОШЕНИЯХ</h3>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advantage-box advantage-big">
+                        <img src="<?php echo get_template_directory_uri()?>/images/advantage/25years.png" alt="">
+                        <h3>ГАРАНТИЯ КАЧЕСТВА</h3>
+                        <h3>25 ЛЕТ</h3>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advantage-box">
+                        <img src="<?php echo get_template_directory_uri()?>/images/advantage/best-quality.png" alt="">
+                        <h3>продукт высокого</h3>
+                        <h3>качества</h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+<!--Feedback block-->
+    <section id="feedback" class="feedback">
+        <div class="container">
+            <div class="production-header">
+                <h2>Отзывы о сотрудничестве</h2>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="feedback-slider-nav wow flipInX" data-wow-offset="250">
+                        <div class="feedback-slider-nav-block">
+                            <img src="<?php echo get_template_directory_uri()?>/images/feedback/slider/01.jpg" alt="Slider-img">
+                        </div>
+                        <div class="feedback-slider-nav-block">
+                            <img src="<?php echo get_template_directory_uri()?>/images/feedback/slider/02.jpg" alt="Slider-img">
+                        </div>
+                        <div class="feedback-slider-nav-block">
+                            <img src="<?php echo get_template_directory_uri()?>/images/feedback/slider/03.jpg" alt="Slider-img">
+                        </div>
+                        <div class="feedback-slider-nav-block">
+                            <img src="<?php echo get_template_directory_uri()?>/images/feedback/slider/04.jpg" alt="Slider-img">
+                        </div>
+                        <div class="feedback-slider-nav-block">
+                            <img src="<?php echo get_template_directory_uri()?>/images/feedback/slider/05.jpg" alt="Slider-img">
+                        </div>
+                        <div class="feedback-slider-nav-block">
+                            <img src="<?php echo get_template_directory_uri()?>/images/feedback/slider/06.jpg" alt="Slider-img">
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
     </section>
