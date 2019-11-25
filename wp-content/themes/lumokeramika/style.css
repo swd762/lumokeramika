@@ -45,7 +45,7 @@ textarea:focus {
   width: 17.5rem;
   height: 4.5rem;
   padding: 0;
-  font-family: 'Roboto_med', sans-serif;
+  font-family: 'Century Gothic Regular', sans-serif;
   font-weight: 500;
   font-size: 1.4rem;
   line-height: 4.5rem;
@@ -98,7 +98,7 @@ header .header .wrap-button button {
   width: 18rem;
   height: 4.5rem;
   padding: 0;
-  font-family: 'Century Gothic Bold', sans-serif;
+  font-family: 'Century Gothic Regular', sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
   line-height: 4.5rem;
@@ -468,7 +468,9 @@ header .navbar-default .navbar-nav li a:hover {
   margin: 0;
   color: #fff;
   text-align: center;
-  padding-top: 2rem; }
+  padding-top: 2rem;
+  font-family: "Century Gothic Regular", sans-serif;
+  font-weight: 700; }
 
 .gallery-description-text-block {
   padding: 7rem 1rem 0 2rem; }
@@ -493,8 +495,11 @@ header .navbar-default .navbar-nav li a:hover {
 
 .products .products-header h2 {
   font-size: 3rem;
-  font-family: "Century Gothic Bold", sans-serif;
-  font-weight: 700; }
+  font-family: "Century Gothic Regular", sans-serif;
+  font-weight: 700;
+  background-color: #4c4949;
+  color: #fff;
+  padding: 0.5rem; }
 
 .products-content {
   text-align: center;
@@ -514,7 +519,8 @@ header .navbar-default .navbar-nav li a:hover {
 .products-content h4 {
   font-family: "Century Gothic Regular", sans-serif;
   font-weight: 500;
-  font-size: 2rem; }
+  font-size: 2rem;
+  padding: 1rem; }
 
 .production-content-buttons {
   width: 100%;
@@ -559,7 +565,8 @@ header .navbar-default .navbar-nav li a:hover {
   color: #ffffff; }
 
 .advantage {
-  background-color: #2d2d2d; }
+  background-color: #2d2d2d;
+  padding-bottom: 3rem; }
 
 .advantage-box {
   width: 100%;
@@ -567,16 +574,41 @@ header .navbar-default .navbar-nav li a:hover {
   text-align: center;
   margin-top: 10rem; }
 
+.advantage-box img:hover {
+  animation: 3s linear 0s normal none infinite running rot;
+  -webkit-animation: 1s linear 0s normal none infinite running rot; }
+
+@keyframes rot {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+@-webkit-keyframes rot {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
 .advantage-box h3 {
-  color: #fff; }
+  color: #fff;
+  text-transform: uppercase; }
 
 .advantage-big {
   margin-top: 3rem; }
 
 .feedback {
-  padding-top: 5.5rem;
+  padding-top: 2rem;
   padding-bottom: 6.5rem;
-  background-color: #f4f4f4; }
+  background-color: #dbdbdb; }
+
+.feedback .feedback-header h2 {
+  font-size: 3rem;
+  font-family: "Century Gothic Regular", sans-serif;
+  font-weight: 700;
+  background-color: #4c4949;
+  color: #fff;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  text-align: center; }
 
 .feedback-slider-nav {
   padding-top: 3rem; }
@@ -590,7 +622,8 @@ header .navbar-default .navbar-nav li a:hover {
   border-radius: 5px; }
 
 .contacts {
-  position: relative; }
+  position: relative;
+  background-color: #dbdbdb; }
 
 .contacts .container-fluid {
   padding-left: 0;
@@ -609,20 +642,20 @@ header .navbar-default .navbar-nav li a:hover {
 
 .contacts-content-address h2 {
   font-size: 1.8rem;
-  font-family: 'Roboto_med', sans-serif;
-  font-weight: 500;
+  font-family: 'Century Gothic Regular', sans-serif;
+  font-weight: 700;
   position: relative;
   bottom: 4.5rem;
-  left: 3rem; }
+  left: 4rem; }
 
 .contacts-content-address p {
   position: relative;
   bottom: 5rem;
-  left: 3rem;
+  left: 4rem;
   font-size: 1.6rem;
   line-height: 1.5rem;
-  font-family: 'Roboto_light', sans-serif;
-  font-weight: 300; }
+  font-family: 'Century Gothic Regular', sans-serif;
+  font-weight: 500; }
 
 .contacts-content-phone {
   position: relative;
@@ -630,24 +663,24 @@ header .navbar-default .navbar-nav li a:hover {
 
 .contacts-content-phone h2 {
   font-size: 1.8rem;
-  font-family: 'Roboto_med', sans-serif;
-  font-weight: 500;
+  font-family: 'Century Gothic Regular', sans-serif;
+  font-weight: 700;
   position: relative;
   bottom: 4.5rem;
-  left: 3rem; }
+  left: 4rem; }
 
 .contacts-content-phone p {
   font-size: 1.6rem;
-  font-family: 'Roboto_light', sans-serif;
-  font-weight: 300;
+  font-family: 'Century Gothic Regular', sans-serif;
+  font-weight: 500;
   position: relative;
   bottom: 5rem;
-  left: 3rem; }
+  left: 4rem; }
 
 .contacts-content-phone button {
   position: relative;
   bottom: 5rem;
-  left: 3rem; }
+  left: 4rem; }
 
 .contacts-content-email {
   position: relative;
@@ -655,11 +688,11 @@ header .navbar-default .navbar-nav li a:hover {
 
 .contacts-content-email h2 {
   font-size: 1.8rem;
-  font-family: 'Roboto_med', sans-serif;
-  font-weight: 500;
+  font-family: 'Century Gothic Regular', sans-serif;
+  font-weight: 700;
   position: relative;
   bottom: 4rem;
-  left: 3rem; }
+  left: 4rem; }
 
 .contacts-content-email p {
   font-size: 1.6rem;
@@ -667,14 +700,21 @@ header .navbar-default .navbar-nav li a:hover {
   font-weight: 300;
   position: relative;
   bottom: 4.5rem;
-  left: 3rem; }
+  left: 4rem; }
 
 .contacts-content-email a {
   color: #373737; }
 
 footer {
   height: 10rem;
-  background-color: black; }
+  background-color: #2d2d2d;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0;
+  font-size: 1.3rem;
+  font-family: 'Century Gothic Regular', sans-serif;
+  font-weight: 300;
+  line-height: 9rem; }
 
 /*Media other*/
 @media (max-width: 350px) {
@@ -769,7 +809,8 @@ footer {
     background-color: #4c4949;
     text-align: center;
     padding: 0.5rem 0 0.5rem 0;
-    margin-top: 1rem; }
+    margin-top: 1rem;
+    text-transform: uppercase; }
 
   .h2-mobile h2 {
     font-size: 30px;
@@ -783,6 +824,9 @@ footer {
 
   .making-arrow-next {
     right: -3.2rem; }
+
+  .advantage-box {
+    margin-top: 3rem; }
 
   .production-content {
     position: relative;
@@ -969,20 +1013,6 @@ footer {
     height: 61rem;
     margin-top: 2.5rem; }
 
-  .making .h2-mobile {
-    display: block;
-    text-align: center; }
-
-  .making .h2-mobile h2 {
-    background-color: #ff9d00;
-    color: #ffffff;
-    font-family: 'Roboto_reg', sans-serif;
-    font-weight: normal;
-    text-transform: uppercase;
-    font-size: 2rem;
-    line-height: 6.5rem;
-    height: 6.5rem; }
-
   .making-slider-for-block img {
     height: 50rem;
     width: 115%;
@@ -1006,11 +1036,11 @@ footer {
   .making-arrow-prev {
     z-index: 1;
     left: 0;
-    background: url(../img/left-arrow-white.png) center no-repeat; }
+    background: url(images/arrow-left-white.png) center no-repeat; }
 
   .making-arrow-next {
     right: 0;
-    background: url(../img/right-arrow-white.png) center no-repeat; }
+    background: url(images/arrow-right-white.png) center no-repeat; }
 
   .feedback {
     padding-top: 3.5rem;

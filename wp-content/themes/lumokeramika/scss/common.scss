@@ -27,6 +27,7 @@ $button-orange-hover:#cc7e00;
 $white:#fff;
 $background-light-gray:#e9e3e3;
 $background-gray1:#dbdbdb;
+$background-header-gray:#4c4949;
 $text-gray:#666;
 
 
@@ -64,7 +65,7 @@ textarea:focus {
   width: 17.5rem;
   height: 4.5rem;
   padding: 0;
-  font-family: 'Roboto_med', sans-serif;
+  font-family: 'Century Gothic Regular', sans-serif;
   font-weight: 500;
   font-size: 1.4rem;
   line-height: 4.5rem;
@@ -123,7 +124,7 @@ header .header .wrap-button button {
   width: 18rem;
   height: 4.5rem;
   padding: 0;
-  font-family: 'Century Gothic Bold', sans-serif;
+  font-family: 'Century Gothic Regular', sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
   line-height: 4.5rem;
@@ -522,6 +523,8 @@ header .navbar-default .navbar-nav li a:hover {
   color: #fff;
   text-align: center;
   padding-top: 2rem;
+  font-family: "Century Gothic Regular", sans-serif;
+  font-weight: 700;
 }
 .gallery-description-text-block{
   padding: 7rem 1rem 0 2rem;
@@ -553,8 +556,11 @@ header .navbar-default .navbar-nav li a:hover {
 
 .products .products-header h2 {
   font-size: 3rem;
-  font-family: "Century Gothic Bold", sans-serif;
+  font-family: "Century Gothic Regular", sans-serif;
   font-weight: 700;
+  background-color: $background-header-gray;
+  color: #fff;
+  padding: 0.5rem;
 }
 
 .products-content {
@@ -579,6 +585,7 @@ header .navbar-default .navbar-nav li a:hover {
   font-family: "Century Gothic Regular", sans-serif;
   font-weight: 500;
   font-size: 2rem;
+  padding: 1rem;
 }
 .production-content-buttons {
   width: 100%;
@@ -627,6 +634,7 @@ header .navbar-default .navbar-nav li a:hover {
 .advantage {
   //height: 40rem;
   background-color: $background-dark;
+  padding-bottom: 3rem;
 }
 .advantage-box {
   width: 100%;
@@ -634,8 +642,31 @@ header .navbar-default .navbar-nav li a:hover {
   text-align: center;
   margin-top: 10rem;
 }
+.advantage-box img:hover {
+  animation: 3s linear 0s normal none infinite running rot;
+  -webkit-animation: 1s linear 0s normal none infinite running rot;
+  //width: 100px;
+}
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .advantage-box h3 {
   color:#fff;
+  text-transform: uppercase;
 
 }
 .advantage-big {
@@ -644,10 +675,21 @@ header .navbar-default .navbar-nav li a:hover {
 
 //**Feedback**
 .feedback {
-  padding-top: 5.5rem;
+  padding-top: 2rem;
   padding-bottom: 6.5rem;
-  background-color: #f4f4f4;
+  background-color: #dbdbdb;
 }
+.feedback .feedback-header h2 {
+  font-size: 3rem;
+  font-family: "Century Gothic Regular", sans-serif;
+  font-weight: 700;
+  background-color: #4c4949;
+  color: #fff;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .feedback-slider-nav {
   padding-top: 3rem;
 }
@@ -663,13 +705,13 @@ header .navbar-default .navbar-nav li a:hover {
 //** Contacts block **
 .contacts {
   position: relative;
-  //height: 53rem;
+  background-color: #dbdbdb;
 }
-
 .contacts .container-fluid {
   padding-left: 0;
   padding-right: 0;
 }
+
 .contacts-content {
   position: absolute;
   left: 25rem;
@@ -683,20 +725,20 @@ header .navbar-default .navbar-nav li a:hover {
 }
 .contacts-content-address h2 {
   font-size: 1.8rem;
-  font-family: 'Roboto_med', sans-serif;
-  font-weight: 500;
+  font-family: 'Century Gothic Regular', sans-serif;
+  font-weight: 700;
   position: relative;
   bottom: 4.5rem;
-  left: 3rem;
+  left: 4rem;
 }
 .contacts-content-address p {
   position: relative;
   bottom: 5rem;
-  left: 3rem;
+  left: 4rem;
   font-size: 1.6rem;
   line-height: 1.5rem;
-  font-family: 'Roboto_light', sans-serif;
-  font-weight: 300;
+  font-family: 'Century Gothic Regular', sans-serif;
+  font-weight: 500;
 }
 .contacts-content-phone {
   position: relative;
@@ -704,24 +746,24 @@ header .navbar-default .navbar-nav li a:hover {
 }
 .contacts-content-phone h2 {
   font-size: 1.8rem;
-  font-family: 'Roboto_med', sans-serif;
-  font-weight: 500;
+  font-family: 'Century Gothic Regular', sans-serif;
+  font-weight: 700;
   position: relative;
   bottom: 4.5rem;
-  left: 3rem;
+  left: 4rem;
 }
 .contacts-content-phone p {
   font-size: 1.6rem;
-  font-family: 'Roboto_light', sans-serif;
-  font-weight: 300;
+  font-family: 'Century Gothic Regular', sans-serif;
+  font-weight: 500;
   position: relative;
   bottom: 5rem;
-  left: 3rem;
+  left: 4rem;
 }
 .contacts-content-phone button {
   position: relative;
   bottom: 5rem;
-  left: 3rem;
+  left: 4rem;
 }
 .contacts-content-email {
   position: relative;
@@ -729,11 +771,11 @@ header .navbar-default .navbar-nav li a:hover {
 }
 .contacts-content-email h2 {
   font-size: 1.8rem;
-  font-family: 'Roboto_med', sans-serif;
-  font-weight: 500;
+  font-family: 'Century Gothic Regular', sans-serif;
+  font-weight: 700;
   position: relative;
   bottom: 4rem;
-  left: 3rem;
+  left: 4rem;
 }
 .contacts-content-email p {
   font-size: 1.6rem;
@@ -741,7 +783,7 @@ header .navbar-default .navbar-nav li a:hover {
   font-weight: 300;
   position: relative;
   bottom: 4.5rem;
-  left: 3rem;
+  left: 4rem;
 }
 .contacts-content-email a {
   color: #373737;
@@ -750,5 +792,12 @@ header .navbar-default .navbar-nav li a:hover {
 //**Footer block**
 footer {
   height: 10rem;
-  background-color: black;
+  background-color: $background-dark;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0;
+  font-size: 1.3rem;
+  font-family: 'Century Gothic Regular', sans-serif;
+  font-weight: 300;
+  line-height: 9rem;
 }

@@ -151,19 +151,6 @@
                         </div>
 
                     </div>
-                        <!--                        <div class="gallery-view-box">-->
-<!---->
-<!--                        </div>-->
-<!--                        <div class="gallery-thumbnails-box">-->
-<!---->
-<!--                        </div>-->
-<!--
-                    </div>
-                    <div class="hidden-xs hidden-sm col-md-6">-->
-<!--                        <div class="gallery-description">-->
-<!---->
-<!--                        </div>-->
-<!--                    </div>-->
                 </div>
             </div>
         </div>
@@ -208,15 +195,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
-
-
-
             </div>
         </div>
     </section>
@@ -228,21 +206,21 @@
                     <div class="advantage-box">
                         <img src="<?php echo get_template_directory_uri()?>/images/advantage/offer.png" alt="">
                         <h3>НАШ ПРОДУКТ УНИКАЛЕН</h3>
-                        <h3>ВО ВСЕХ ОТНОШЕНИЯХ</h3>
+<!--                        <h3>ВО ВСЕХ ОТНОШЕНИЯХ</h3>-->
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="advantage-box advantage-big">
                         <img src="<?php echo get_template_directory_uri()?>/images/advantage/25years.png" alt="">
-                        <h3>ГАРАНТИЯ КАЧЕСТВА</h3>
-                        <h3>25 ЛЕТ</h3>
+                        <h3>ГАРАНТИЯ производителя 25 ЛЕТ</h3>
+<!--                        <h3>25 ЛЕТ</h3>-->
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="advantage-box">
                         <img src="<?php echo get_template_directory_uri()?>/images/advantage/best-quality.png" alt="">
-                        <h3>продукт высокого</h3>
-                        <h3>качества</h3>
+                        <h3>продукт высокого качества</h3>
+<!--                        <h3>качества</h3>-->
                     </div>
                 </div>
 
@@ -251,11 +229,14 @@
     </section>
 <!--Feedback block-->
     <section id="feedback" class="feedback">
+        <div class="h2-mobile">
+            <h2>сертификаты и отзывы о сотрудничестве</h2>
+        </div>
         <div class="container">
-            <div class="production-header">
-                <h2>Отзывы о сотрудничестве</h2>
-            </div>
             <div class="row">
+                <div class="col-md-12 hidden-xs hidden-sm feedback-header">
+                    <h2>сертификаты и отзывы о сотрудничестве</h2>
+                </div>
                 <div class="col-xs-12">
                     <div class="feedback-slider-nav wow flipInX" data-wow-offset="250">
                         <div class="feedback-slider-nav-block">
@@ -286,19 +267,19 @@
     <section id="contacts" class="contacts">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-4 col-xs-12">
+                <div class="hidden-xs col-sm-12">
                     <div class="contacts-content wow bounceInLeft" data-wow-offset="250">
                         <div class="contacts-content-address">
                             <img src="<?php echo get_template_directory_uri()?>/images/contacts/location-icon.png" alt="">
                             <h2>Адрес офиса:</h2>
-                            <p>414022, г. Астрахань,</p>
-                            <p>ул. Н. Островского, 148, офис 422</p>
+                            <p>414022 г. Астрахань</p>
+                            <p>ул. Н. Островского 148</p>
+                            <p>офис 422</p>
                         </div>
                         <div class="contacts-content-phone">
                             <img src="<?php echo get_template_directory_uri()?>/images/contacts/phone-icon.png" alt="">
                             <h2>Тел. отдела продаж:</h2>
-                            <p>8 (347) 271-54-28</p>
-                            <p>8 (937) 363-30-00</p>
+                            <p>+7 (927) 284-85-74</p>
                             <button class="button btn-order" onclick="yaCounter47126406.reachGoal('callback-btn'); return true;">Заказать звонок</button>
                         </div>
                         <div class="contacts-content-email">
@@ -316,12 +297,6 @@
             </div>
         </div>
     </section>
-    <footer>
-        <div class="container">
-            <p>2019 (c) All rights reserved. lumokeramika.ru</p>
-        </div>
-
-    </footer>
 <script>
        jQuery(function($) {
         /*Slick Script*/
@@ -375,8 +350,10 @@
             infinite: true,
             slidesToShow: 3,
             slidesToScroll: 1,
-            prevArrow: '<button class="prev arrow"></button>',
-            nextArrow: '<button class="next arrow"></button>',
+            prevArrow: '<button class="making-arrow-prev"></button>',
+            nextArrow: '<button class="making-arrow-next"></button>',
+            // prevArrow: '<button class="prev arrow"></button>',
+            // nextArrow: '<button class="next arrow"></button>',
             arrows: true,
             focusOnSelect: true,
             responsive: [
@@ -398,7 +375,7 @@
         });
     });
 </script>
-</body>
+
 <?php
     get_footer();
 ?>
