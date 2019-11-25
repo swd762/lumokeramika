@@ -34,7 +34,6 @@
             </div>
         </div>
     </main>
-
 <!--About block-->
     <section id="about" class="about">
         <div class="container">
@@ -70,6 +69,9 @@
 <!--Gallery block-->
     <section id="galley" class="gallery">
         <div class="gallery-overlay">
+            <div class="h2-mobile">
+                <h2>ГАЛЕРЕЯ ИНТЕРЬЕРОВ</h2>
+            </div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -77,7 +79,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 col-xs-12">
+                    <div class="col-md-7 col-xs-12">
                         <div class="gallery-view-box">
                             <div class="gallery-view-box-block">
                                 <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/01.jpg" alt="Slider-img">
@@ -133,7 +135,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 hidden-xs hidden-sm">
+                    <div class="col-md-5 hidden-xs hidden-sm">
                         <div class="gallery-description">
                             <div class="gallery-description-header">
                                 <h2>ГАЛЕРЕЯ ИНТЕРЬЕРОВ</h2>

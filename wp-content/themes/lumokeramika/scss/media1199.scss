@@ -2,9 +2,7 @@
   header .navbar-default .navbar-nav li a {
     padding: 0.6rem 1.34rem;
   }
-
   header .navbar-header { display: none}   // just
-
   header .header .wrap .phones p {
     font-size: 1.8rem;
     text-align: center;
@@ -21,18 +19,24 @@
     margin-top: 96%;
     right: 56%;
   }
-
-
-
-
-  .clients-wrapper {
-    height: 13rem;
+  // ** gallery **
+  .gallery-description-header h2 {
+    font-size: 2.7rem;
   }
   .making-arrow-prev {
     left: -2.5rem;
   }
   .making-arrow-next {
     right: -2.5rem;
+  }
+
+
+
+
+
+
+  .clients-wrapper {
+    height: 13rem;
   }
   .feedback-slider-nav-block {
     margin-left: 2rem;

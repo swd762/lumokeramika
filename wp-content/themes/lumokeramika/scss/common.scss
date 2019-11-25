@@ -406,7 +406,7 @@ header .navbar-default .navbar-nav li a:hover {
   box-shadow: 7px 7px 7px #333;
 }
 .about .text-box h2 {
-  margin-top: 0px;
+  margin-top: 0;
   text-transform: uppercase;
   font-family: 'Century Gothic Bold', sans-serif;
   font-weight: 700;
@@ -423,6 +423,9 @@ header .navbar-default .navbar-nav li a:hover {
 }
 
 // ** Gallery block **
+.h2-mobile {
+  display: none;
+}
 .gallery {
   position: relative;
   height: 60rem;
@@ -449,7 +452,9 @@ header .navbar-default .navbar-nav li a:hover {
   min-height: 38rem;
 }
 .slider-nav-wrapper {
-  background-color:#4c4949 ;
+  background-color:#4c4949;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .gallery .gallery-thumbnails-box {
   width: 90%;
@@ -473,6 +478,9 @@ header .navbar-default .navbar-nav li a:hover {
   -webkit-filter: brightness(100%)!important;
   filter: brightness(100%)!important;
 }
+.slick-next, .slick-prev {
+  display: none!important;
+}
 .making-arrow-prev {
   position: absolute;
   top: 50%;
@@ -480,7 +488,7 @@ header .navbar-default .navbar-nav li a:hover {
   transform: translateY(-50%);
   width: 2.2rem;
   height: 7.8rem;
-  left: -3.5rem;
+  left: -2.7rem;
   background: url(images/arrow-left-white.png) center no-repeat;
   border:none;
 }
@@ -494,7 +502,7 @@ header .navbar-default .navbar-nav li a:hover {
   transform: translateY(-50%);
   width: 2.2rem;
   height: 7.8rem;
-  right: -3.5rem;
+  right: -2.7rem;
   background: url(images/arrow-right-white.png) center no-repeat;
   border:none;
 }

@@ -27,8 +27,30 @@
   .main-form-wrapper {
     z-index: 3;
   }
-
-
+  //** Gallery **
+  .gallery {
+    height: 64rem;
+  }
+  .gallery .h2-mobile {
+    display: block;
+    background-color: #4c4949;
+    text-align: center;
+    padding: 0.5rem 0 0.5rem 0;
+    margin-top: 1rem;
+  }
+  .gallery .h2-mobile h2 {
+    font-size: 30px;
+    color: #fff;
+    font-family: "Century Gothic Regular", sans-serif;
+    font-weight: 700;
+    margin: 0;
+  }
+  .making-arrow-prev {
+    left: -3.2rem;
+  }
+  .making-arrow-next {
+    right: -3.2rem;
+  }
 
 
 
@@ -55,12 +77,7 @@
     font-size: 1.4rem;
     line-height: 1.8rem;
   }
-  .making-arrow-prev {
-    left: -2.2rem;
-  }
-  .making-arrow-next {
-    right: -2.2rem;
-  }
+
   .feedback-slider-nav-block {
     margin-left: 4.5rem;
   }
