@@ -542,8 +542,9 @@ header .navbar-default .navbar-nav li a:hover {
 // **Products block**
 .products {
   background-color: $background-gray1;
-  height: 90rem;
+  //height: 90rem;
   padding-top: 2rem;
+  padding-bottom: 3rem;
 }
 .products-header {
   text-transform: uppercase;
@@ -563,6 +564,16 @@ header .navbar-default .navbar-nav li a:hover {
 .products-content img {
   background-color: #000;
   box-shadow: 7px 7px 7px #333;
+  border-radius: 0;
+
+  //transition: border-radius  1s ease;
+  //transition: background-color 1s ease;
+  transition: all 1s ease;
+}
+.products-content img:hover {
+  background-color: #66FF99;
+  box-shadow: 1px 1px 100px #333;
+  border-radius: 0.5rem;
 }
 .products-content h4 {
   font-family: "Century Gothic Regular", sans-serif;
@@ -614,7 +625,7 @@ header .navbar-default .navbar-nav li a:hover {
 
 //** Advantages block **
 .advantage {
-  height: 40rem;
+  //height: 40rem;
   background-color: $background-dark;
 }
 .advantage-box {

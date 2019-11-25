@@ -170,8 +170,11 @@
     </section>
 <!--Products block-->
     <section id="products" class="products">
+        <div class="h2-mobile">
+            <h2>НАША ПРОДУКЦИЯ</h2>
+        </div>
         <div class="container">
-            <div class="products-header">
+            <div class="col-md-12 hidden-xs hidden-sm products-header">
                 <h2>НАША ПРОДУКЦИЯ</h2>
             </div>
             <div class="row">
@@ -181,41 +184,31 @@
                          <h4>Пластина настенная</h4>
                          <div class="product-content-buttons">
                              <button class="product-button-more btn-more">Подробнее</button>
-                             <button class="product-button-calc btn-order">Получить расчёт</button>
+                             <button class="button product-button-calc btn-order">Получить расчёт</button>
                          </div>
                      </div>
                  </div>
                 <div class="col-sm-6 col-xs-12">
                     <div class="products-content">
-                        <img src="<?php echo get_template_directory_uri()?>/images/products/product.png" alt="">
-                        <h4>Пластина настенная</h4>
+                        <img src="<?php echo get_template_directory_uri()?>/images/products/product2.png" alt="">
+                        <h4>Плитка</h4>
                         <div class="product-content-buttons">
                             <button class="product-button-more btn-more">Подробнее</button>
                             <button class="button product-button-calc btn-order">Получить расчёт</button>
-                            <button class="product-button-gallery btn-gallery">Выбрать принт</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 col-xs-12">
                     <div class="products-content">
-                        <img src="<?php echo get_template_directory_uri()?>/images/products/product.png" alt="">
-                        <h4>Пластина настенная</h4>
+                        <img src="<?php echo get_template_directory_uri()?>/images/products/product3.png" alt="">
+                        <h4>Мозаика</h4>
                         <div class="product-content-buttons">
                             <button class="product-button-more btn-more">Подробнее</button>
-                            <button class="product-button-calc btn-order">Получить расчёт</button>
+                            <button class="button product-button-calc btn-order">Получить расчёт</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-xs-12">
-                    <div class="products-content">
-                        <img src="<?php echo get_template_directory_uri()?>/images/products/product.png" alt="">
-                        <h4>Пластина настенная</h4>
-                        <div class="product-content-buttons">
-                            <button class="product-button-more btn-more">Подробнее</button>
-                            <button class="product-button-calc btn-order">Получить расчёт</button>
-                        </div>
-                    </div>
-                </div>
+
 
 
 
