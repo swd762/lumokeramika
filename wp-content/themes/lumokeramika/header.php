@@ -1,18 +1,19 @@
+<?php
 
-
-
-
+//** Theme header */
+?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> >
 <head>
+    <title><?php echo wp_get_document_title();?></title>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11" />
-    <title><?php echo wp_get_document_title();?></title>
+
 
     <?php wp_head(); ?>
-    <meta name="yandex-verification" content="4fdccee49ff52b0e" />
-    <meta name="yandex-verification" content="f7830f36d89e70ab" />
+<!--    <meta name="yandex-verification" content="4fdccee49ff52b0e" />-->
+<!--    <meta name="yandex-verification" content="f7830f36d89e70ab" />-->
 </head>
 <body>
      <header>
@@ -30,6 +31,7 @@
                          <div class="wrap">
                              <div class="wrap-phone">
                                  <a href="tel:+79272848574">+7 (927) 284-85-74</a>
+                                 <a href="https://www.instagram.com/lumokeramika/" target="_blank"><img src="<?php echo get_template_directory_uri()?>/images/insta-icon.png" alt="" style="width:30px">lumokeramika</a>
                              </div>
                          </div>
                      </div>
@@ -78,13 +80,13 @@
                  <!-- Collect the nav links toggling -->
                  <div class="collapse navbar-collapse" id="bs-navbar-collapse">
                      <ul class="nav navbar-nav">
-                         <li><a class="slowly" href="#main">О компании</a></li>
-                         <li><a class="slowly" href="#triggers">Галерея</a></li>
-                         <li><a class="slowly" href="#make">Продукция</a></li>
-                         <li><a class="slowly" href="#production">Преимущества</a></li>
+                         <li><a class="slowly" href="#about">О компании</a></li>
+                         <li><a class="slowly" href="#gallery">Галерея</a></li>
+                         <li><a class="slowly" href="#products">Продукция</a></li>
+                         <li><a class="slowly" href="#advantage">Преимущества</a></li>
                          <li><a class="slowly" href="#feedback">Сертификаты</a></li>
                          <li><a class="slowly" href="#feedback">Отзывы</a></li>
-                         <li><a class="slowly" href="#feedback">Выбрать принт</a></li>
+                         <li><a class="slowly" href="#">Каталог</a></li>
                          <li><a class="slowly" href="#contacts">Контакты</a></li>
                      </ul>
                  </div>

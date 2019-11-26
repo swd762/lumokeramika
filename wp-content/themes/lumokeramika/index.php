@@ -23,7 +23,7 @@
                                     <p>с доставкой по всей России</p>
                                 </div>
                                 <form class="bid" action="mailer/smart.php" method="POST">
-                                    <p>Получите индивидуальное предложение на поставку светящейся плитки или мозики<br><span>Образцы бесплатно!</span></p>
+                                    <p>Получите индивидуальное предложение на поставку светящейся плитки или мозики</p>
                                     <input id="phone_1" name="user_phone" type="tel" required placeholder="Введите номер телефона">
                                     <button class="button" onclick="yaCounter47126406.reachGoal('bid-btn'); return true;" type="submit">Оставить заявку!</button>
                                 </form>
@@ -67,7 +67,7 @@
         </div>
     </section>
 <!--Gallery block-->
-    <section id="galley" class="gallery">
+    <section id="gallery" class="gallery">
         <div class="gallery-overlay">
             <div class="h2-mobile">
                 <h2>ГАЛЕРЕЯ ИНТЕРЬЕРОВ</h2>
@@ -105,6 +105,12 @@
                             <div class="gallery-view-box-block">
                                 <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/08.jpg" alt="Slider-img">
                             </div>
+                            <div class="gallery-view-box-block">
+                                <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/09.jpg" alt="Slider-img">
+                            </div>
+                            <div class="gallery-view-box-block">
+                                <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/10.jpg" alt="Slider-img">
+                            </div>
                         </div>
                         <div class="slider-nav-wrapper">
                             <div class="gallery-thumbnails-box hidden-xs wow fadeInUp" data-wow-delay="0.1s" data-wow-offset="150">
@@ -132,6 +138,12 @@
                                 <div class="gallery-thumbnails-box-block">
                                     <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/08.jpg" alt="Slider-img">
                                 </div>
+                                <div class="gallery-thumbnails-box-block">
+                                    <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/09.jpg" alt="Slider-img">
+                                </div>
+                                <div class="gallery-thumbnails-box-block">
+                                    <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/10.jpg" alt="Slider-img">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -141,12 +153,16 @@
                                 <h2>ГАЛЕРЕЯ ИНТЕРЬЕРОВ</h2>
                             </div>
                             <div class="gallery-description-text-block">
-                                <p>так наша плитка выглядит в интерьерах</p>
-                                <p>так наша плитка выглядит в интерьерах</p>
-                                <p>так наша плитка выглядит в интерьерах</p>
-                                <p>так наша плитка выглядит в интерьерах</p>
-                                <p>так наша плитка выглядит в интерьерах</p>
-
+                                <p>Варианты применения отделочных материалов Luxor в дизайне интерьеров.</p>
+                                <p>Отделка ванных комнат, душевых и туалетов</p>
+                                <p>Отделка кухонных зон</p>
+                                <p>Отделка интерьеров жилых помещений</p>
+                                <p>Отделка пола</p>
+                                <p>Создание настенных панно</p>
+                                <p>Отделка саун и бассейнов</p>
+                                <p>Наружная отделка фасадов</p>
+                                <p>Отделка искусственных каминов</p>
+                                <p>Отделка ночных клубов, кафе, ресторанов</p>
                             </div>
                         </div>
 
@@ -168,7 +184,7 @@
                  <div class="col-sm-6 col-xs-12">
                      <div class="products-content">
                          <img src="<?php echo get_template_directory_uri()?>/images/products/product.png" alt="">
-                         <h4>Пластина настенная</h4>
+                         <h4>Панель декоративная настенная</h4>
                          <div class="product-content-buttons">
                              <button class="product-button-more btn-more">Подробнее</button>
                              <button class="button product-button-calc btn-order">Получить расчёт</button>
@@ -189,6 +205,16 @@
                     <div class="products-content">
                         <img src="<?php echo get_template_directory_uri()?>/images/products/product3.png" alt="">
                         <h4>Мозаика</h4>
+                        <div class="product-content-buttons">
+                            <button class="product-button-more btn-more">Подробнее</button>
+                            <button class="button product-button-calc btn-order">Получить расчёт</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <div class="products-content">
+                        <img src="<?php echo get_template_directory_uri()?>/images/products/product.png" alt="">
+                        <h4>Панель декоративная потолочная</h4>
                         <div class="product-content-buttons">
                             <button class="product-button-more btn-more">Подробнее</button>
                             <button class="button product-button-calc btn-order">Получить расчёт</button>
@@ -285,7 +311,7 @@
                         <div class="contacts-content-email">
                             <img src="<?php echo get_template_directory_uri()?>/images/contacts/email-icon.png" alt="">
                             <h2>E-mail:</h2>
-                            <a href="mailto:urals.karton@gmail.com"><p>urals.karton@gmail.com</p></a>
+                            <a href="mailto:lumo19@yandex.ru"><p>lumo19@yandex.ru</p></a>
                         </div>
                     </div>
                 </div>
@@ -299,6 +325,32 @@
     </section>
 <script>
        jQuery(function($) {
+                $('.popup-thanks-close').on('click', function(event) {
+                   event.preventDefault();
+                   $('.popup-thanks').fadeOut();
+                   $('.popup').fadeOut();
+               });
+               /* --------------------------------------*/
+               $('.btn-order').on('click', function(event) {
+                   event.preventDefault();
+                   $('.popup-feedback').fadeIn();
+               });
+
+               $('.popup-feedback-close').on('click', function(event) {
+                   event.preventDefault();
+                   $('.popup-feedback').fadeOut();
+               });
+               /* --------------------------------------*/
+               $('.btn-more').on('click', function(event) {
+                   event.preventDefault();
+                   $('.popup-more').fadeIn();
+               });
+
+               $('.popup-more-close').on('click', function(event) {
+                   event.preventDefault();
+                   $('.popup-more').fadeOut();
+               });
+
         /*Slick Script*/
         $('.gallery-view-box').slick({
             infinite: true,
