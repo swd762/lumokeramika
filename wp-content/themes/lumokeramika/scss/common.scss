@@ -708,7 +708,7 @@ header .navbar-default .navbar-nav li a:hover {
 .contacts {
   position: relative;
   background-color: #dbdbdb;
-  overflow-y: hidden;
+
 }
 .contacts .container-fluid {
   padding-left: 0;
@@ -790,6 +790,9 @@ header .navbar-default .navbar-nav li a:hover {
 }
 .contacts-content-email a {
   color: #373737;
+}
+.contacts-map {
+  overflow-x: hidden;
 }
 
 //**Footer block**
@@ -929,13 +932,6 @@ footer {
   font-size: 2rem;
   margin-top: 0.5rem;
 }
-.popup-feedback-content form small {
-  display: block;
-  font-family: 'Roboto_light', sans-serif;
-  font-weight: 300;
-  color: #ffffff;
-  font-size: 1.6rem;
-}
 .popup-feedback-content form input,
 .popup-feedback-content form button {
   display: inline-block;
@@ -1000,16 +996,16 @@ footer {
   background-color: #ff9d00;
   line-height: 7rem;
   text-transform: uppercase;
-  font-family: 'Roboto_med', sans-serif;
-  font-weight: 500;
+  font-family: 'Century Gothic Regular', sans-serif;
+  font-weight: 700;
   font-size: 2.1rem;
-  color: #ffffff;
+  color: #333;
 }
 .popup-more-content-text {
   padding: 3rem 3.1rem 4rem 3.1rem;
 }
 .popup-more-content-text p {
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
   text-align: justify;
   font-size: 1.6rem;
   font-family: 'Roboto_light', sans-serif;
