@@ -24,7 +24,7 @@
                      <div class="col-sm-3 col-md-3">
                          <div class="wrap">
                              <div class="logo">
-                                 <img src="<?php echo get_template_directory_uri()?>/images/logo.png" alt="Люмокерамика">
+                                 <a href="/"><img src="<?php echo get_template_directory_uri()?>/images/logo.png" alt="Люмокерамика"></a>
                              </div>
                          </div>
                      </div>
@@ -80,15 +80,22 @@
 
                  <!-- Collect the nav links toggling -->
                  <div class="collapse navbar-collapse" id="bs-navbar-collapse">
-                     <ul class="nav navbar-nav">
-                         <li><a class="slowly" href="#about">О компании</a></li>
-                         <li><a class="slowly" href="#gallery">Галерея</a></li>
-                         <li><a class="slowly" href="#products">Продукция</a></li>
-                         <li><a class="slowly" href="#advantage">Преимущества</a></li>
-                         <li><a class="slowly" href="#feedback">Сертификаты</a></li>
-                         <li><a class="slowly" href="#feedback">Отзывы</a></li>
-                         <li><a class="slowly" href="#">Каталог</a></li>
-                         <li><a class="slowly" href="#contacts">Контакты</a></li>
+                     <?php
+                     wp_nav_menu( array(
+                         'menu_class'=>'nav navbar-nav',
+                         'theme_location'=>'top',
+                         'after'=>''
+                     ) );
+                     ?>
+<!--                     <ul class="nav navbar-nav">-->
+<!--                         <li><a class="slowly" href="#about">О компании</a></li>-->
+<!--                         <li><a class="slowly" href="#gallery">Галерея</a></li>-->
+<!--                         <li><a class="slowly" href="#products">Продукция</a></li>-->
+<!--                         <li><a class="slowly" href="#advantage">Преимущества</a></li>-->
+<!--                         <li><a class="slowly" href="#feedback">Сертификаты</a></li>-->
+<!--                         <li><a class="slowly" href="#feedback">Отзывы</a></li>-->
+<!--                         <li><a class="slowly" href="#">Каталог</a></li>-->
+<!--                         <li><a class="slowly" href="#contacts">Контакты</a></li>-->
                      </ul>
                  </div>
              </div>

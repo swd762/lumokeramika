@@ -28,7 +28,7 @@
                     <h4 class="popup-feedback-header">
                         Форма обратной связи
                     </h4>
-                    <form class="bid" action="" method="POST">
+                    <form class="bid" action="<?php echo get_template_directory_uri()?>/mailer/mail.php" method="POST">
                         <p>Получите индивидуальное предложение</p>
                         <span>на поставку светящейся плитки или мозики</span>
                         <p class="light">Введите ваш номер телефона:</p>
@@ -63,10 +63,193 @@
                                 Так же, если Вы не определились с принтом - можете его выбрать в <a href="https://redcatkupe.ru/fotopechat/category/121.html" target="_blank">партнерском каталоге</a>
                             </p>
                         </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-</body>
+<script>
+    jQuery(function($){
+        $("#phone_1").mask("+7 (999) 999-99-99");
+        $("#phone_2").mask("+7 (999) 999-99-99");
+        $("#phone_3").mask("+7 (999) 999-99-99");
+        $("#phone_4").mask("+7 (999) 999-99-99");
+    });
+</script>
+
+
+<script>
+    jQuery(function($) {
+
+
+
+        $('.popup-thanks-close').on('click', function(event) {
+            event.preventDefault();
+            $('.popup-thanks').fadeOut();
+            $('.popup').fadeOut();
+        });
+        /* --------------------------------------*/
+        $('.btn-order').on('click', function(event) {
+            event.preventDefault();
+            $('.popup-feedback').fadeIn();
+        });
+
+        $('.popup-feedback-close').on('click', function(event) {
+            event.preventDefault();
+            $('.popup-feedback').fadeOut();
+        });
+        /* --------------------------------------*/
+        $('.prod1').on('click', function(event) {
+            event.preventDefault();
+            $('.popup-more-header').text('Панель декоративная настенная');
+            $('.popup-more .discription-js span').text('Декоративная панель 21*29,7 см. Толщина 2,5мм. С внутренней стороны расположены углубления для нанесения жидких гвоздей.');
+            $('.popup-more').fadeIn();
+        });
+        $('.prod2').on('click', function(event) {
+            event.preventDefault();
+            $('.popup-more-header').text('Отделочная плитка');
+            $('.popup-more .discription-js span').text('Отделочная плитка 10*10 см. Толщина 4,5мм. Обратная сторона имеет выпуклые ребра для более прочной фиксации с раствором. На всех материалах имеется логотип нашей компании.');
+            $('.popup-more').fadeIn();
+        });
+        $('.prod3').on('click', function(event) {
+            event.preventDefault();
+            $('.popup-more-header').text('Мозаика');
+            $('.popup-more .discription-js span').text('Мозаика 3*3 см. Толщина 4мм. С обратной стороны имеется углубление для прочной сцепки с раствором. Выпускается в двух вариациях – белая и прозрачная 3 цветов (красный, синий, зелёный)');
+            $('.popup-more').fadeIn();
+        });
+        $('.prod4').on('click', function(event) {
+            event.preventDefault();
+            $('.popup-more-header').text('Панель декоративная потолочная');
+            $('.popup-more .discription-js span').text('Декоративная панель 21*29,7 см. Толщина 2,5мм. С внутренней стороны расположены углубления для нанесения жидких гвоздей. Рекомендована для спален');
+            $('.popup-more').fadeIn();
+        });
+        $('.popup-more-close').on('click', function(event) {
+            event.preventDefault();
+            $('.popup-more').fadeOut();
+        });
+
+        //*********Slick Script*************************************************************/
+        $('.gallery-view-box').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            fade: true,
+            asNavFor: '.gallery-thumbnails-box',
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        prevArrow: '<button class="making-arrow-prev"></button>',
+                        nextArrow: '<button class="making-arrow-next"></button>',
+                    }
+                },
+            ]
+        });
+
+        $('.gallery-thumbnails-box').slick({
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            prevArrow: '<button class="making-arrow-prev"></button>',
+            nextArrow: '<button class="making-arrow-next"></button>',
+            asNavFor: '.gallery-view-box',
+            dots: false,
+            arrows: true,
+            centerMode: true,
+            focusOnSelect: true,
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+            ]
+        });
+
+        $('.feedback-slider-nav').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            prevArrow: '<button class="making-arrow-prev"></button>',
+            nextArrow: '<button class="making-arrow-next"></button>',
+            // prevArrow: '<button class="prev arrow"></button>',
+            // nextArrow: '<button class="next arrow"></button>',
+            arrows: true,
+            focusOnSelect: true,
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        prevArrow: '<button class="making-arrow-prev"></button>',
+                        nextArrow: '<button class="making-arrow-next"></button>',
+                    }
+                },
+            ]
+        });
+        // ***************************************************************************
+
+        // ***** Кнопка вверх ********************************************************
+
+        $(".slowly").on("click", function (event) {
+            /*Отменяем стандартную обработку нажатия по ссылке.*/
+            event.preventDefault();
+            /*Забираем идентификатор блока с атрибута href.*/
+            let id = $(this).attr('href'),
+                /*Узнаём высоту от начала страницы до блока, на который ссылается якорь.*/
+                top = $(id).offset().top;
+            /*Анимируем переход на расстояние - top за 1000ms.*/
+            $('body,html').animate({scrollTop: top}, 600);
+        });
+        $(document).ready(function() {
+
+            let defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear'
+            };
+
+
+            $().UItoTop({ easingType: 'easeOutQuart' });
+
+        });
+        // ************************************************************************
+
+        /*Mailer*/
+        $('.bid').submit(function(event) {
+            event.preventDefault();
+            $.ajax({
+                type: "POST",
+                url: "<?php echo get_template_directory_uri()?>/mailer/mail.php",
+                data: $(this).serialize()
+            }).done(function() {
+                $(this).find("input").val("");
+                $('.popup-feedback').fadeOut();
+                $('.popup-more').fadeOut();
+                $('.popup-thanks').fadeIn();
+                $("form").trigger("reset");
+            });
+            return false;
+        });
+    });
+</script>
+<script>
+    new WOW().init();
+</script>
+
+    </body>
 </html>

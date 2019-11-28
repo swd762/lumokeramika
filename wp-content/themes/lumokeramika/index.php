@@ -22,7 +22,7 @@
                                     <h1>светящейся в темноте</h1>
                                     <p>с доставкой по всей России</p>
                                 </div>
-                                <form class="bid" action="mailer/smart.php" method="POST">
+                                <form class="bid" action="<?php echo get_template_directory_uri()?>/mailer/mail.php" method="POST">
                                     <p>Получите индивидуальное предложение на поставку светящейся плитки или мозики</p>
                                     <input id="phone_1" name="user_phone" type="tel" required placeholder="Введите номер телефона">
                                     <button class="button" <?php //onclick="yaCounter47126406.reachGoal('bid-btn'); return true;"?> type="submit">Оставить заявку!</button>
@@ -238,7 +238,7 @@
                 <div class="col-md-4">
                     <div class="advantage-box advantage-big  wow fadeInUp" data-wow-delay="0.3s" data-wow-offset="150"">
                         <img src="<?php echo get_template_directory_uri()?>/images/advantage/25years.png" alt="">
-                        <h3>ГАРАНТИЯ производителя 25 ЛЕТ</h3>
+                        <h3>ГАРАНТИЯ производителя 20 ЛЕТ</h3>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -321,203 +321,10 @@
             </div>
         </div>
     </section>
-<?php
-$to = "swd.admin@mail.ru"; // емайл получателя данных из формы
-$tema = "Форма обратной связи на PHP"; // тема полученного емайла
-$message = "Ваше имя: ".$_POST['name']."<br>";//присвоить переменной значение, полученное из формы name=name
-$message .= "E-mail: ".$_POST['email']."<br>"; //полученное из формы name=email
-$message .= "Номер телефона: ".$_POST['phone']."<br>"; //полученное из формы name=phone
-$message .= "Сообщение: ".$_POST['message']."<br>"; //полученное из формы name=message
-$headers  = 'MIME-Version: 1.0' . "\r\n"; // заголовок соответствует формату плюс символ перевода строки
-$headers .= 'Content-type: text/html; charset=utf-8' . "\r\n"; // указывает на тип посылаемого контента
-mail($to, $tema, $message, $headers); //отправляет получателю на емайл значения переменных
-?>
 
 
 
-<script>
-    jQuery(function($){
-        $("#phone_1").mask("+7 (999) 999-99-99");
-        $("#phone_2").mask("+7 (999) 999-99-99");
-        $("#phone_3").mask("+7 (999) 999-99-99");
-        $("#phone_4").mask("+7 (999) 999-99-99");
-    });
-</script>
 
-
-<script>
-       jQuery(function($) {
-              
-
-
-                $('.popup-thanks-close').on('click', function(event) {
-                   event.preventDefault();
-                   $('.popup-thanks').fadeOut();
-                   $('.popup').fadeOut();
-               });
-               /* --------------------------------------*/
-               $('.btn-order').on('click', function(event) {
-                   event.preventDefault();
-                   $('.popup-feedback').fadeIn();
-               });
-
-               $('.popup-feedback-close').on('click', function(event) {
-                   event.preventDefault();
-                   $('.popup-feedback').fadeOut();
-               });
-               /* --------------------------------------*/
-               $('.prod1').on('click', function(event) {
-                   event.preventDefault();
-                   $('.popup-more-header').text('Панель декоративная настенная');
-                   $('.popup-more .discription-js span').text('Декоративная панель 21*29,7 см. Толщина 2,5мм. С внутренней стороны расположены углубления для нанесения жидких гвоздей.')
-                   $('.popup-more').fadeIn();
-               });
-               $('.prod2').on('click', function(event) {
-                   event.preventDefault();
-                   $('.popup-more-header').text('Отделочная плитка');
-                   $('.popup-more .discription-js span').text('Отделочная плитка 10*10 см. Толщина 4,5мм. Обратная сторона имеет выпуклые ребра для более прочной фиксации с раствором. На всех материалах имеется логотип нашей компании.')
-                   $('.popup-more').fadeIn();
-               });
-               $('.prod3').on('click', function(event) {
-                   event.preventDefault();
-                   $('.popup-more-header').text('Мозаика');
-                   $('.popup-more .discription-js span').text('Мозаика 3*3 см. Толщина 4мм. С обратной стороны имеется углубление для прочной сцепки с раствором. Выпускается в двух вариациях – белая и прозрачная 3 цветов (красный, синий, зелёный)')
-                   $('.popup-more').fadeIn();
-               });
-               $('.prod4').on('click', function(event) {
-                   event.preventDefault();
-                   $('.popup-more-header').text('Панель декоративная потолочная');
-                   $('.popup-more .discription-js span').text('Декоративная панель 21*29,7 см. Толщина 2,5мм. С внутренней стороны расположены углубления для нанесения жидких гвоздей. Рекомендована для спален')
-                   $('.popup-more').fadeIn();
-               });
-               $('.popup-more-close').on('click', function(event) {
-                   event.preventDefault();
-                   $('.popup-more').fadeOut();
-               });
-
-        //*********Slick Script*************************************************************/
-        $('.gallery-view-box').slick({
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: true,
-            fade: true,
-            asNavFor: '.gallery-thumbnails-box',
-            responsive: [
-                {
-                    breakpoint: 768,
-                    settings: {
-                        prevArrow: '<button class="making-arrow-prev"></button>',
-                        nextArrow: '<button class="making-arrow-next"></button>',
-                    }
-                },
-            ]
-        });
-
-        $('.gallery-thumbnails-box').slick({
-            infinite: true,
-            slidesToShow: 4,
-            slidesToScroll: 1,
-            prevArrow: '<button class="making-arrow-prev"></button>',
-            nextArrow: '<button class="making-arrow-next"></button>',
-            asNavFor: '.gallery-view-box',
-            dots: false,
-            arrows: true,
-            centerMode: true,
-            focusOnSelect: true,
-            responsive: [
-                {
-                    breakpoint: 1200,
-                    settings: {
-                        slidesToShow: 3,
-                    }
-                },
-                {
-                    breakpoint: 992,
-                    settings: {
-                        slidesToShow: 2,
-                    }
-                },
-            ]
-        });
-
-        $('.feedback-slider-nav').slick({
-            infinite: true,
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            prevArrow: '<button class="making-arrow-prev"></button>',
-            nextArrow: '<button class="making-arrow-next"></button>',
-            // prevArrow: '<button class="prev arrow"></button>',
-            // nextArrow: '<button class="next arrow"></button>',
-            arrows: true,
-            focusOnSelect: true,
-            responsive: [
-                {
-                    breakpoint: 992,
-                    settings: {
-                        slidesToShow: 2,
-                    }
-                },
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 1,
-                        prevArrow: '<button class="making-arrow-prev"></button>',
-                        nextArrow: '<button class="making-arrow-next"></button>',
-                    }
-                },
-            ]
-        });
-        // ***************************************************************************
-
-        // ***** Кнопка вверх ********************************************************
-
-        $(".slowly").on("click", function (event) {
-               /*Отменяем стандартную обработку нажатия по ссылке.*/
-               event.preventDefault();
-               /*Забираем идентификатор блока с атрибута href.*/
-               var id = $(this).attr('href'),
-                   /*Узнаём высоту от начала страницы до блока, на который ссылается якорь.*/
-                   top = $(id).offset().top;
-               /*Анимируем переход на расстояние - top за 1000ms.*/
-               $('body,html').animate({scrollTop: top}, 600);
-           });
-           $(document).ready(function() {
-
-               var defaults = {
-               containerID: 'toTop', // fading element id
-               containerHoverID: 'toTopHover', // fading element hover id
-               scrollSpeed: 1200,
-               easingType: 'linear'
-               };
-
-
-               $().UItoTop({ easingType: 'easeOutQuart' });
-
-           });
-       // ************************************************************************
-
-           /*Mailer*/
-           $('.bid').submit(function(event) {
-               event.preventDefault();
-               $.ajax({
-                   type: "POST",
-                   url: "",
-                   data: $(this).serialize()
-               }).done(function() {
-                   $(this).find("input").val("");
-                   $('.popup-feedback').fadeOut();
-                   $('.popup-more').fadeOut();
-                   $('.popup-thanks').fadeIn();
-                   $("form").trigger("reset");
-               });
-               return false;
-           });
-       });
-</script>
-<script>
-    new WOW().init();
-</script>
 
 <?php
     get_footer();

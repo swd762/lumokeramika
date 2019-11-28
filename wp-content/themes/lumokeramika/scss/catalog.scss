@@ -1,0 +1,43 @@
+// ** Catalog page **
+.catalog {
+  background-color:#dbdbdb;
+  padding-bottom: 3rem;
+}
+.catalog-item {
+  padding: 0.5rem;
+  margin: 2rem 0 0 0.5rem;
+  background-color: #d4d4d4;
+  border-radius: 1rem;
+}
+.catalog-item h2 {
+  font-size: 3rem;
+  font-family: "Century Gothic Bold";
+  padding: 0 1rem 0 1rem;
+}
+.catalog-item p {
+  font-family: "Century Gothic Regular";
+  font-weight: 700;
+  padding-left: 1rem;
+}
+
+.sidebar-menu {
+  background-color: #d4d4d4;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+.sidebar-menu a {
+  font-family: "Century Gothic Regular";
+  font-weight: 700;
+  font-size: 2rem;
+  text-decoration: none;
+  cursor: pointer;
+  color: #333;
+}
+.sidebar-menu a:hover {
+  color: #888;
+}
+
+
