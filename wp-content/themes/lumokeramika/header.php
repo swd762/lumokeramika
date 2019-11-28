@@ -71,9 +71,9 @@
                              <a href="tel:+79272848574">+7 (927) <span>284-85-74</span></a>
                          </div>
                          <div class="navbar-header-call-handset">
-                             <div class="navbar-header-call-handset-img btn-order">
-                                 <img src="<?php echo get_template_directory_uri()?>/images/call.svg" alt="Call">
-                             </div>
+                            <div class="insta-button">
+                                <a href="https://www.instagram.com/lumokeramika/" target="_blank"><img src="<?php echo get_template_directory_uri()?>/images/instagram.svg" alt="instagram"></a>
+                            </div>
                          </div>
                      </div>
                  </div>

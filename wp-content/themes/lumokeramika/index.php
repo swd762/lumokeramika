@@ -183,7 +183,7 @@
             <div class="row">
                  <div class="col-sm-6 col-xs-12">
                      <div class="products-content wow fadeInLeft" data-wow-offset="300"">
-                         <img src="<?php echo get_template_directory_uri()?>/images/products/product.png" alt="">
+                         <img src="<?php echo get_template_directory_uri()?>/images/products/product.png" alt="Фото продукта">
                          <h4>Панель декоративная настенная</h4>
                          <div class="product-content-buttons">
                              <button class="product-button-more btn-more prod1">Подробнее</button>
@@ -193,7 +193,7 @@
                  </div>
                 <div class="col-sm-6 col-xs-12">
                     <div class="products-content wow fadeInRight" data-wow-offset="300"">
-                        <img src="<?php echo get_template_directory_uri()?>/images/products/product.png" alt="">
+                        <img src="<?php echo get_template_directory_uri()?>/images/products/product.png" alt="Фото продукта">
                         <h4>Панель декоративная потолочная</h4>
                         <div class="product-content-buttons">
                             <button class="product-button-more btn-more prod4">Подробнее</button>
@@ -203,7 +203,7 @@
                 </div>
                 <div class="col-sm-6 col-xs-12">
                     <div class="products-content wow fadeInLeft" data-wow-offset="300"">
-                        <img src="<?php echo get_template_directory_uri()?>/images/products/product2.png" alt="">
+                        <img src="<?php echo get_template_directory_uri()?>/images/products/product2.png" alt="Фото продукта">
                         <h4>Отделочная плитка</h4>
                         <div class="product-content-buttons">
                             <button class="product-button-more btn-more prod2">Подробнее</button>
@@ -213,7 +213,7 @@
                 </div>
                 <div class="col-sm-6 col-xs-12">
                     <div class="products-content wow fadeInRight" data-wow-offset="300"">
-                        <img src="<?php echo get_template_directory_uri()?>/images/products/product3.png" alt="">
+                        <img src="<?php echo get_template_directory_uri()?>/images/products/product3.png" alt="Фото продукта">
                         <h4>Мозаика</h4>
                         <div class="product-content-buttons">
                             <button class="product-button-more btn-more prod3">Подробнее</button>
@@ -231,19 +231,19 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="advantage-box  wow fadeInUp" data-wow-delay="0.3s" data-wow-offset="150"">
-                        <img src="<?php echo get_template_directory_uri()?>/images/advantage/offer.png" alt="">
+                        <img src="<?php echo get_template_directory_uri()?>/images/advantage/offer.png" alt="значек">
                         <h3>НАШ ПРОДУКТ УНИКАЛЕН</h3>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="advantage-box advantage-big  wow fadeInUp" data-wow-delay="0.3s" data-wow-offset="150"">
-                        <img src="<?php echo get_template_directory_uri()?>/images/advantage/25years.png" alt="">
+                        <img src="<?php echo get_template_directory_uri()?>/images/advantage/25years.png" alt="значек">
                         <h3>ГАРАНТИЯ производителя 20 ЛЕТ</h3>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="advantage-box wow fadeInUp" data-wow-delay="0.3s" data-wow-offset="150"">
-                        <img src="<?php echo get_template_directory_uri()?>/images/advantage/best-quality.png" alt="">
+                        <img src="<?php echo get_template_directory_uri()?>/images/advantage/best-quality.png" alt="значек">
                         <h3>продукт высокого качества</h3>
                     </div>
                 </div>
@@ -291,23 +291,23 @@
     <section id="contacts" class="contacts">
         <div class="container-fluid">
             <div class="row">
-                <div class="hidden-xs col-sm-12">
+                <div class="col-sm-12">
                     <div class="contacts-content wow bounceInLeft" data-wow-offset="250">
                         <div class="contacts-content-address">
-                            <img src="<?php echo get_template_directory_uri()?>/images/contacts/location-icon.png" alt="">
+                            <img src="<?php echo get_template_directory_uri()?>/images/contacts/location-icon.png" alt="иконка локации">
                             <h2>Адрес офиса:</h2>
                             <p>414022 г. Астрахань</p>
                             <p>ул. Н. Островского 148</p>
                             <p>офис 422</p>
                         </div>
                         <div class="contacts-content-phone">
-                            <img src="<?php echo get_template_directory_uri()?>/images/contacts/phone-icon.png" alt="">
+                            <img src="<?php echo get_template_directory_uri()?>/images/contacts/phone-icon.png" alt="иконка телефона">
                             <h2>Тел. отдела продаж:</h2>
                             <p>+7 (927) 284-85-74</p>
                             <button class="button btn-order" onclick="yaCounter47126406.reachGoal('callback-btn'); return true;">Заказать звонок</button>
                         </div>
                         <div class="contacts-content-email">
-                            <img src="<?php echo get_template_directory_uri()?>/images/contacts/email-icon.png" alt="">
+                            <img src="<?php echo get_template_directory_uri()?>/images/contacts/email-icon.png" alt="иконка email">
                             <h2>E-mail:</h2>
                             <a href="mailto:lumo19@yandex.ru"><p>lumo19@yandex.ru</p></a>
                         </div>
