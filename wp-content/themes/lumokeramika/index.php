@@ -96,12 +96,12 @@
                             <div class="gallery-view-box-block">
                                 <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/05.jpg" alt="Slider-img">
                             </div>
-<!--                            <div class="gallery-view-box-block">-->
-<!--                                <img src="--><?php //echo get_template_directory_uri()?><!--/images/gallery/slider/06.jpg" alt="Slider-img">-->
-<!--                            </div>-->
-<!--                            <div class="gallery-view-box-block">-->
-<!--                                <img src="--><?php //echo get_template_directory_uri()?><!--/images/gallery/slider/07.jpg" alt="Slider-img">-->
-<!--                            </div>-->
+                            <div class="gallery-view-box-block">
+                                <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/06.jpg" alt="Slider-img">
+                            </div>
+                            <div class="gallery-view-box-block">
+                                <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/07.jpg" alt="Slider-img">
+                            </div>
                             <div class="gallery-view-box-block">
                                 <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/08.jpg" alt="Slider-img">
                             </div>
@@ -129,12 +129,12 @@
                                 <div class="gallery-thumbnails-box-block">
                                     <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/05.jpg" alt="Slider-img">
                                 </div>
-<!--                                <div class="gallery-thumbnails-box-block">-->
-<!--                                    <img src="--><?php //echo get_template_directory_uri()?><!--/images/gallery/slider/06.jpg" alt="Slider-img">-->
-<!--                                </div>-->
-<!--                                <div class="gallery-thumbnails-box-block">-->
-<!--                                    <img src="--><?php //echo get_template_directory_uri()?><!--/images/gallery/slider/07.jpg" alt="Slider-img">-->
-<!--                                </div>-->
+                                <div class="gallery-thumbnails-box-block">
+                                    <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/06.jpg" alt="Slider-img">
+                                </div>
+                                <div class="gallery-thumbnails-box-block">
+                                    <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/07.jpg" alt="Slider-img">
+                                </div>
                                 <div class="gallery-thumbnails-box-block">
                                     <img src="<?php echo get_template_directory_uri()?>/images/gallery/slider/08.jpg" alt="Slider-img">
                                 </div>

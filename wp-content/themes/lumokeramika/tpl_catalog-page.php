@@ -23,7 +23,10 @@ Template name: Шаблон каталога
             </div>
                 <div class="col-md-9">
                     <?php
-                    $query = new WP_Query('category_name=plit');
+                    $query = new WP_Query(array(
+                            'category_name'=>'plit',
+                            'posts_per_page'=>'30'
+                        ));
                     while ($query->have_posts()){
                         $query->the_post();
                         ?>
@@ -33,7 +36,7 @@ Template name: Шаблон каталога
                             <p><?php the_field('goods_id', get_the_ID())?></p>
                             <img src="<?php echo the_field('goods_thumbnail', get_the_ID())?>" alt="миниатюра продукта">
                             <img src="<?php echo the_field('goods_photo1', get_the_ID())?>" alt="фото продукта" class="item-pic">
-                            <img src="<?php echo the_field('goods_photo2', get_the_ID())?>" alt="фото продукта" class="item-pic">
+                            <img src="<?php echo the_field('goods_photo2', get_the_ID())?>" alt="" class="item-pic">
                         </div>
                         <?php
                     }

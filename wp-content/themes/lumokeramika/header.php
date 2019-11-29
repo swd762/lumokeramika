@@ -10,11 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11" />
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri()?>/images/favicon.png" type="image/png">
-
+    <meta name="yandex-verification" content="3fba749ffc17b938" />
 
     <?php wp_head(); ?>
-<!--    <meta name="yandex-verification" content="4fdccee49ff52b0e" />-->
-<!--    <meta name="yandex-verification" content="f7830f36d89e70ab" />-->
 </head>
 <body>
      <header>
