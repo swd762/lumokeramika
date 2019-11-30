@@ -588,9 +588,7 @@ header .navbar-default .navbar-nav li a:hover {
   background-color: #000;
   box-shadow: 7px 7px 7px #333;
   border-radius: 0;
-
-  //transition: border-radius  1s ease;
-  //transition: background-color 1s ease;
+  padding: 1rem;
   transition: all 1s ease;
 }
 .products-content img:hover {
@@ -665,7 +663,6 @@ header .navbar-default .navbar-nav li a:hover {
 .advantage-box img:hover {
   animation: 3s linear 0s normal none infinite running rot;
   -webkit-animation: 1s linear 0s normal none infinite running rot;
-  //width: 100px;
 }
 @keyframes rot {
   0% {
@@ -726,7 +723,6 @@ header .navbar-default .navbar-nav li a:hover {
 .contacts {
   position: relative;
   background-color: #dbdbdb;
-
 }
 .contacts .container-fluid {
   padding-left: 0;
@@ -815,7 +811,6 @@ header .navbar-default .navbar-nav li a:hover {
 
 //**Footer block**
 footer {
-  //height: 10rem;
   background-color: $background-dark;
   text-align: center;
   color: #fff;
