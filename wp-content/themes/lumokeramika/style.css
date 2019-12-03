@@ -521,14 +521,14 @@ header .navbar-default .navbar-nav li a:hover {
   padding-top: 3rem; }
 
 .products-content img {
-  background-color: #000;
+  background-color: #4c4949;
   box-shadow: 7px 7px 7px #333;
   border-radius: 0;
   padding: 1rem;
   transition: all 1s ease; }
 
 .products-content img:hover {
-  background-color: #66FF99;
+  background-color: #2d2d2d;
   box-shadow: 1px 1px 100px #333;
   border-radius: 0.5rem; }
 
