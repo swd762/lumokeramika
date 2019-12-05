@@ -25,7 +25,7 @@
                                 <form class="bid" action="<?php echo get_template_directory_uri()?>/mailer/mail.php" method="POST">
                                     <p>Получите индивидуальное предложение на поставку светящейся плитки или мозики</p>
                                     <input id="phone_1" name="user_phone" type="tel" required placeholder="Введите номер телефона">
-                                    <button class="button" <?php //onclick="yaCounter47126406.reachGoal('bid-btn'); return true;"?> type="submit">Оставить заявку!</button>
+                                    <button class="button" type="submit">Оставить заявку!</button>
                                 </form>
                             </div>
                         </div>
@@ -183,7 +183,7 @@
             <div class="row">
                  <div class="col-sm-6 col-xs-12">
                      <div class="products-content wow fadeInLeft" data-wow-offset="300"">
-                         <a href="/catalog"><img src="<?php echo get_template_directory_uri()?>/images/products/product.png" alt="Фото продукта"></a>
+                         <a href="/catalog"><img src="<?php echo get_template_directory_uri()?>/images/products/product.jpg" alt="Фото продукта"></a>
                          <h4>Панель декоративная настенная</h4>
                          <div class="product-content-buttons">
                              <button class="product-button-more btn-more prod1">Подробнее</button>
@@ -193,7 +193,7 @@
                  </div>
                 <div class="col-sm-6 col-xs-12">
                     <div class="products-content wow fadeInRight" data-wow-offset="300"">
-                        <a href="/catalog"><img src="<?php echo get_template_directory_uri()?>/images/products/product.png" alt="Фото продукта"></a>
+                        <a href="/catalog"><img src="<?php echo get_template_directory_uri()?>/images/products/product1.jpg" alt="Фото продукта" ></a>
                         <h4>Панель декоративная потолочная</h4>
                         <div class="product-content-buttons">
                             <button class="product-button-more btn-more prod4">Подробнее</button>
@@ -203,7 +203,7 @@
                 </div>
                 <div class="col-sm-6 col-xs-12">
                     <div class="products-content wow fadeInLeft" data-wow-offset="300"">
-                        <a href="/catalog"><img src="<?php echo get_template_directory_uri()?>/images/products/product2.png" alt="Фото продукта"></a>
+                        <a href="/catalog"><img src="<?php echo get_template_directory_uri()?>/images/products/product2.jpg" alt="Фото продукта"></a>
                         <h4>Отделочная плитка</h4>
                         <div class="product-content-buttons">
                             <button class="product-button-more btn-more prod2">Подробнее</button>
@@ -213,7 +213,7 @@
                 </div>
                 <div class="col-sm-6 col-xs-12">
                     <div class="products-content wow fadeInRight" data-wow-offset="300"">
-                    <a href="/catalog/mozai"><img src="<?php echo get_template_directory_uri()?>/images/products/product3.png" alt="Фото продукта"></a>
+                    <a href="/catalog/mozai"><img src="<?php echo get_template_directory_uri()?>/images/products/product3.jpg" alt="Фото продукта"></a>
                         <h4>Мозаика</h4>
                         <div class="product-content-buttons">
                             <button class="product-button-more btn-more prod3">Подробнее</button>

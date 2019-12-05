@@ -33,7 +33,7 @@
                         <span>на поставку светящейся плитки или мозики</span>
                         <p class="light">Введите ваш номер телефона:</p>
                         <input id="phone_3" name="user_phone" type="tel" required placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ">
-                        <button class="button btn-sent" <?phph //onclick="yaCounter47126406.reachGoal('bid-btn'); return true;"?> type="submit">Оставить заявку!</button>
+                        <button class="button btn-sent" type="submit">Оставить заявку!</button>
                     </form>
                 </div>
             </div>
