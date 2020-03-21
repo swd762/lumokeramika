@@ -589,7 +589,6 @@ header .navbar-default .navbar-nav li a:hover {
   box-shadow: 7px 7px 7px #333;
   border-radius: 0;
   width:274px;
-  //padding: 1rem;
   transition: all 1s ease;
 }
 .products-content img:hover {
@@ -718,6 +717,7 @@ header .navbar-default .navbar-nav li a:hover {
   min-height: 38rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 5px;
+  width:100%;
 }
 
 //** Contacts block **

@@ -638,7 +638,8 @@ header .navbar-default .navbar-nav li a:hover {
 .feedback-slider-nav-block img {
   min-height: 38rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 5px; }
+  border-radius: 5px;
+  width: 100%; }
 
 .contacts {
   position: relative;
